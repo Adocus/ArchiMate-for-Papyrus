@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="ArchiMate::Wizard"
+         name="ArchiMate wizard"
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            canFinishEarly="true"
+            category="com.adocus.papyrus.archimate.wizard"
+            class="com.adocus.papyrus.archimate.wizard.NewArchiMateModelWizard"
+            finalPerspective="org.eclipse.papyrus.infra.core.perspective"
+            hasPages="true"
+            icon="platform:/plugin/com.adocus.papyrus.archimate/icons/archimate-32.png"
+            id="org.eclipse.papyrus.wizards.createarchimatemodel"
+            name="%wizard.name for model"
+            project="false">
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+      </wizard>
+      <wizard
+            canFinishEarly="true"
+            category="com.adocus.papyrus.archimate.wizard"
+            class="com.adocus.papyrus.archimate.wizard.NewArchiMateProjectWizard"
+            finalPerspective="org.eclipse.papyrus.infra.core.perspective"
+            hasPages="false"
+            icon="platform:/plugin/com.adocus.papyrus.archimate/icons/archimate-32.png"
+            id="org.eclipse.papyrus.wizards.createarchimatewizard"
+            name="%wizard.name for project"
+            project="true">
+         <description>
+            %wizard.description
+         </description>
+      </wizard>
+      <category
+            id="com.adocus.papyrus.archimate.wizard"
+            name="ArchiMate wizards">
+      </category>
+   </extension>
+<!--     <extension
+         id="ArchiMate::DSML"
+         point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+		<diagramCategory
+        class="com.adocus.papyrus.archimate.wizard.CreateArchiMateModelCommand"
+        description="Papyrus ArchiMate model"
+        icon="icons/archimate-32.png"
+        id="ArchiMate::Model"
+        label="ArchiMate model">
+		</diagramCategory>
+	</extension> -->
+</plugin>

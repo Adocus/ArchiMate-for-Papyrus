@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.1" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" identifier="com.adocus.papyrus.archimate.elementTypes2" name="" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="UML::Comment" name="Comment" hint="UML::Comment">
+    <specializedTypesID>org.eclipse.papyrus.uml.Comment</specializedTypesID>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="UML::Package" name="Grouping" hint="UML::Package">
+    <specializedTypesID>org.eclipse.papyrus.uml.Package</specializedTypesID>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>ArchiMate::Grouping</stereotypesQualifiedNames>
+    </matcherConfiguration>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" identifier="com.adocus.papyrus.archimate.grouping" target="//@elementTypeConfigurations.1">
+    <stereotypesToApply stereotypeQualifiedName="ArchiMate::Grouping" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

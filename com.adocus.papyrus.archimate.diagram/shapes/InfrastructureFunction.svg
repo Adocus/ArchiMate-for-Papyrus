@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="570"
+   height="350"
+   id="svg14739"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="InfrastructureFunction.svg">
+  <metadata
+     id="metadata14750">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14748" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview14746"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="183.86742"
+     inkscape:cy="185"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14739" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g
+     id="g14741"
+     transform="matrix(0.96840719,0,0,0.97001233,9.9612231,-7.05885)"
+     style="stroke-width:10.52077198;stroke-miterlimit:4;stroke-dasharray:none">
+    <title
+       id="title14743">Layer 1</title>
+    <path
+       transform="matrix(-0.00384321,-0.99999261,0.99999261,-0.00384321,99.964207,470.03076)"
+       id="svg_1"
+       d="m 111.35907,-88.012917 259.10461,0 86.36832,273.237377 -86.36832,273.23794 -259.10461,0 86.36852,-273.23794 -86.36852,-273.237377 z"
+       inkscape:connector-curvature="0"
+       style="fill:#b5ffb5;stroke:#000000;stroke-width:10.52077198;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 13,85 286,1 559,86 556,349 285,263 15,348 13,85"
+     id="PapyrusPath"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccc"
+     inkscape:label="#path6355" />
+</svg>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArchiMate="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118 pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ">
+  <uml:Model xmi:id="_1reRQNcNEeaaWe_kLaIOnw" name="ArchiSurance model">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_R8yAwOOxEeaSl-D03UuWzw" annotatedElement="_1reRQNcNEeaaWe_kLaIOnw">
+      <body>This example model is based upon the ArchiSurance example from The Open Group (http://opengroup.org/), version from 2012-2014.&#xD;
+&#xD;
+This work is made available under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, http://creativecommons.org/licenses/by-sa/3.0/.&#xD;
+&#xD;
+Changes:&#xD;
+* Implementation and migration extension diagram added.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YcIz0NcOEeaaWe_kLaIOnw" name="Motivation" URI="">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZU8tUNcdEeaaWe_kLaIOnw" name="Stakeholders">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1Q1dAOIsEeaIX-gx4jTflg">
+          <body>Stakeholders are the primary roles with a clear interest in the initiative. Different stakeholders interests are driven by different motivators, so called &quot;drivers&quot;.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZPV88NcPEeaaWe_kLaIOnw" name="Board"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0HNXQNcPEeaaWe_kLaIOnw" name="Customer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_apC60NcPEeaaWe_kLaIOnw" name="Sales target"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cMFa4NcPEeaaWe_kLaIOnw" name="Stakeholder satisfaction"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_f5WW0NcPEeaaWe_kLaIOnw" name="Profit"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uTlLwNcPEeaaWe_kLaIOnw" name="Customer satisfaction"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4F9EwNcPEeaaWe_kLaIOnw" name="Produkt portfolio"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8XTlMNcPEeaaWe_kLaIOnw" name="Price"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_N7SLgNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Association" xmi:id="_9NwFANcPEeaaWe_kLaIOnw" name="Association6" memberEnd="_9NyhQtcPEeaaWe_kLaIOnw _9NyhQ9cPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9NyhQNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9NyhQdcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_9NyhQ9cPEeaaWe_kLaIOnw" name="customer" type="_0HNXQNcPEeaaWe_kLaIOnw" association="_9NwFANcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_9NyhQtcPEeaaWe_kLaIOnw" name="price" type="_8XTlMNcPEeaaWe_kLaIOnw" association="_9NwFANcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_7RcJUNcPEeaaWe_kLaIOnw" name="Association5" memberEnd="_7Rd-gtcPEeaaWe_kLaIOnw _7Rd-g9cPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Rd-gNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Rd-gdcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_7Rd-g9cPEeaaWe_kLaIOnw" name="customer" type="_0HNXQNcPEeaaWe_kLaIOnw" association="_7RcJUNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_7Rd-gtcPEeaaWe_kLaIOnw" name="produkt portfolio" type="_4F9EwNcPEeaaWe_kLaIOnw" association="_7RcJUNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_2TdMYNcPEeaaWe_kLaIOnw" name="Association4" memberEnd="_2TfoodcPEeaaWe_kLaIOnw _2Tg2wNcPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2TfBkNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2TfooNcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_2Tg2wNcPEeaaWe_kLaIOnw" name="customer" type="_0HNXQNcPEeaaWe_kLaIOnw" association="_2TdMYNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_2TfoodcPEeaaWe_kLaIOnw" name="customer satisfaction" type="_uTlLwNcPEeaaWe_kLaIOnw" association="_2TdMYNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_yOjMgNcPEeaaWe_kLaIOnw" name="Association3" memberEnd="_yOkaotcPEeaaWe_kLaIOnw _yOkao9cPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yOkaoNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yOkaodcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_yOkao9cPEeaaWe_kLaIOnw" name="board" type="_ZPV88NcPEeaaWe_kLaIOnw" association="_yOjMgNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_yOkaotcPEeaaWe_kLaIOnw" name="customer satisfaction" type="_uTlLwNcPEeaaWe_kLaIOnw" association="_yOjMgNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_rykAgNcPEeaaWe_kLaIOnw" name="Association2" memberEnd="_rylOotcPEeaaWe_kLaIOnw _rylOo9cPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rylOoNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rylOodcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_rylOo9cPEeaaWe_kLaIOnw" name="board" type="_ZPV88NcPEeaaWe_kLaIOnw" association="_rykAgNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_rylOotcPEeaaWe_kLaIOnw" name="stakeholder satisfaction" type="_cMFa4NcPEeaaWe_kLaIOnw" association="_rykAgNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_rWKYYNcPEeaaWe_kLaIOnw" name="Association1" memberEnd="_rWM0otcPEeaaWe_kLaIOnw _rWNbsNcPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rWM0oNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rWM0odcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_rWNbsNcPEeaaWe_kLaIOnw" name="board" type="_ZPV88NcPEeaaWe_kLaIOnw" association="_rWKYYNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_rWM0otcPEeaaWe_kLaIOnw" name="sales target" type="_apC60NcPEeaaWe_kLaIOnw" association="_rWKYYNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jGfBMNcPEeaaWe_kLaIOnw" name="Aggregation1" memberEnd="_jGiEgNcPEeaaWe_kLaIOnw _jGiEgdcPEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jGhdcNcPEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jGhdcdcPEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jGiEgdcPEeaaWe_kLaIOnw" name="stakeholder satisfaction" type="_cMFa4NcPEeaaWe_kLaIOnw" association="_jGfBMNcPEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jGiEgNcPEeaaWe_kLaIOnw" name="profit" type="_f5WW0NcPEeaaWe_kLaIOnw" aggregation="shared" association="_jGfBMNcPEeaaWe_kLaIOnw"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jOtnwNcdEeaaWe_kLaIOnw" name="Business goals">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_elie4OIuEeaIX-gx4jTflg">
+          <body>Business goals are the the &quot;things&quot; that the organization as a whole wants to achieve with the current initative. Goals are derived and related to drivers.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_N1FDoNcQEeaaWe_kLaIOnw" name="Reduction of cost"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Una6INcQEeaaWe_kLaIOnw" name="Reduction of maintenance costs"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ue7psNcbEeaaWe_kLaIOnw" name="Increase of revenue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xh2oINcbEeaaWe_kLaIOnw" name="Reduction of personnel costs"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zO9DINcbEeaaWe_kLaIOnw" name="Reduction of rework"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1uj5INcbEeaaWe_kLaIOnw" name="Reduction of errors"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_583FkNcbEeaaWe_kLaIOnw" name="Improvement of cross-selling success"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9Y0PENcbEeaaWe_kLaIOnw" name="Increase of customer satisfaction"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__RIbkNcbEeaaWe_kLaIOnw" name="Improvement of data consistency"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_TQ4XMNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Association" xmi:id="_ElG2oNccEeaaWe_kLaIOnw" name="Aggregation4" memberEnd="_ElIEwtccEeaaWe_kLaIOnw _ElIEw9ccEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ElIEwNccEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ElIEwdccEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ElIEw9ccEeaaWe_kLaIOnw" name="increase of revenue" type="_ue7psNcbEeaaWe_kLaIOnw" association="_ElG2oNccEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ElIEwtccEeaaWe_kLaIOnw" name="improvement of cross-selling success" type="_583FkNcbEeaaWe_kLaIOnw" aggregation="shared" association="_ElG2oNccEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_EAQdINccEeaaWe_kLaIOnw" name="Aggregation3" memberEnd="_EARrQtccEeaaWe_kLaIOnw _EASSUNccEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EARrQNccEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EARrQdccEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_EASSUNccEeaaWe_kLaIOnw" name="reduction of cost" type="_N1FDoNcQEeaaWe_kLaIOnw" association="_EAQdINccEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_EARrQtccEeaaWe_kLaIOnw" name="reduction of personnel costs" type="_xh2oINcbEeaaWe_kLaIOnw" aggregation="shared" association="_EAQdINccEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Do7iQNccEeaaWe_kLaIOnw" name="Aggregation2" memberEnd="_Do9XctccEeaaWe_kLaIOnw _Do9-gNccEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Do9XcNccEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Do9XcdccEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Do9-gNccEeaaWe_kLaIOnw" name="reduction of cost" type="_N1FDoNcQEeaaWe_kLaIOnw" association="_Do7iQNccEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Do9XctccEeaaWe_kLaIOnw" name="reduction of maintenance costs" type="_Una6INcQEeaaWe_kLaIOnw" aggregation="shared" association="_Do7iQNccEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5CNbMNcbEeaaWe_kLaIOnw" name="Association7" memberEnd="_5COpUtcbEeaaWe_kLaIOnw _5CPQYNcbEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5COpUNcbEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5COpUdcbEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_5CPQYNcbEeaaWe_kLaIOnw" name="profit" type="_f5WW0NcPEeaaWe_kLaIOnw" association="_5CNbMNcbEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_5COpUtcbEeaaWe_kLaIOnw" name="increase of revenue" type="_ue7psNcbEeaaWe_kLaIOnw" association="_5CNbMNcbEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_RoE0INcQEeaaWe_kLaIOnw" memberEnd="_RoFbMtcQEeaaWe_kLaIOnw _RoGpUNcQEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RoFbMNcQEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RoFbMdcQEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_RoGpUNcQEeaaWe_kLaIOnw" name="reduction of cost" type="_N1FDoNcQEeaaWe_kLaIOnw" association="_RoE0INcQEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_RoFbMtcQEeaaWe_kLaIOnw" name="profit" type="_f5WW0NcPEeaaWe_kLaIOnw" association="_RoE0INcQEeaaWe_kLaIOnw"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_r-n-MNcdEeaaWe_kLaIOnw" name="Principles" URI="">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_GCrswOIxEeaIX-gx4jTflg">
+          <body>Principles are formulations that help to guide the initiative to reach the wanted goals. In all cases where a hard decision has to be made regarding choices for the realization of the solution, the principles are revisited for help.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Hh3GMNcdEeaaWe_kLaIOnw" name="Single system of record for each data element"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Lv3-wNcdEeaaWe_kLaIOnw" name="Common use of applications"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wkv7sNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_mOUB4NccEeaaWe_kLaIOnw" name="Influence1" client="_9Y0PENcbEeaaWe_kLaIOnw" supplier="_583FkNcbEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nn0LcNccEeaaWe_kLaIOnw" name="Aggregation5" memberEnd="_nn2nstccEeaaWe_kLaIOnw _nn2ns9ccEeaaWe_kLaIOnw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nn2nsNccEeaaWe_kLaIOnw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nn2nsdccEeaaWe_kLaIOnw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nn2ns9ccEeaaWe_kLaIOnw" name="reduction of personnel costs" type="_xh2oINcbEeaaWe_kLaIOnw" association="_nn0LcNccEeaaWe_kLaIOnw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nn2nstccEeaaWe_kLaIOnw" name="reduction of rework" type="_zO9DINcbEeaaWe_kLaIOnw" aggregation="shared" association="_nn0LcNccEeaaWe_kLaIOnw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_vMWT4NccEeaaWe_kLaIOnw" name="Influence2" client="_1uj5INcbEeaaWe_kLaIOnw" supplier="_zO9DINcbEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_wrGJ0NccEeaaWe_kLaIOnw" name="Influence3" client="_1uj5INcbEeaaWe_kLaIOnw" supplier="_9Y0PENcbEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_yxAGYNccEeaaWe_kLaIOnw" name="Influence4" client="__RIbkNcbEeaaWe_kLaIOnw" supplier="_1uj5INcbEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_fDwNwNceEeaaWe_kLaIOnw" name="Realization1" client="_Lv3-wNcdEeaaWe_kLaIOnw" supplier="_Una6INcQEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_fbL2UNceEeaaWe_kLaIOnw" name="Realization2" client="_Hh3GMNcdEeaaWe_kLaIOnw" supplier="_Una6INcQEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_gByjUNceEeaaWe_kLaIOnw" name="Realization3" client="_Hh3GMNcdEeaaWe_kLaIOnw" supplier="__RIbkNcbEeaaWe_kLaIOnw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_audbwNcOEeaaWe_kLaIOnw" name="Business">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hLwHINdBEeajMp5CdNtSuQ" name="Business functions">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_13WMcNdBEeajMp5CdNtSuQ" name="Claims"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_3Gv-0NdBEeajMp5CdNtSuQ" name="Underwriting"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_Kz1bMNdHEeaHzf78xwyDuw" name="Actuarial"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_Q5DtANdHEeaHzf78xwyDuw" name="Finance"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_SBJWcNdHEeaHzf78xwyDuw" name="Investment management"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ROrFwNdJEeaHzf78xwyDuw" name="Bank"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_osy9ENdJEeaHzf78xwyDuw" name="Document processing"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_-NzncNdJEeaHzf78xwyDuw" name="Customer relations"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_AGDigNdKEeaHzf78xwyDuw" name="Marketing"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EKEKgNdKEeaHzf78xwyDuw" name="Customer"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_bnKssNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_Gk7qcNdKEeaHzf78xwyDuw" name="Access11" client="_13WMcNdBEeajMp5CdNtSuQ" supplier="_-NzncNdJEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_QagBYNdKEeaHzf78xwyDuw" name="Access12" client="_Kz1bMNdHEeaHzf78xwyDuw" supplier="_AGDigNdKEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_XMiV4NdKEeaHzf78xwyDuw" name="Access13" client="_-NzncNdJEeaHzf78xwyDuw" supplier="_EKEKgNdKEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_ddYo4NdKEeaHzf78xwyDuw" name="Access14" client="_EKEKgNdKEeaHzf78xwyDuw" supplier="_-NzncNdJEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_eYvd4NdKEeaHzf78xwyDuw" name="Access15" client="_AGDigNdKEeaHzf78xwyDuw" supplier="_EKEKgNdKEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_al8XINdJEeaHzf78xwyDuw" name="Access8" client="_SBJWcNdHEeaHzf78xwyDuw" supplier="_ROrFwNdJEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_U2_QQNdJEeaHzf78xwyDuw" name="Access7" client="_SBJWcNdHEeaHzf78xwyDuw" supplier="_hLwHINdBEeajMp5CdNtSuQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_YhgFENdHEeaHzf78xwyDuw" name="Access1" client="_3Gv-0NdBEeajMp5CdNtSuQ" supplier="_13WMcNdBEeajMp5CdNtSuQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_Z4Tf8NdHEeaHzf78xwyDuw" name="Access2" client="_Kz1bMNdHEeaHzf78xwyDuw" supplier="_13WMcNdBEeajMp5CdNtSuQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_amKEcNdHEeaHzf78xwyDuw" name="Access3" client="_Kz1bMNdHEeaHzf78xwyDuw" supplier="_Q5DtANdHEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_a6ANgNdHEeaHzf78xwyDuw" name="Access4" client="_3Gv-0NdBEeajMp5CdNtSuQ" supplier="_Q5DtANdHEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_bql88NdHEeaHzf78xwyDuw" name="Access5" client="_SBJWcNdHEeaHzf78xwyDuw" supplier="_Q5DtANdHEeaHzf78xwyDuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_cTVX8NdHEeaHzf78xwyDuw" name="Access6" client="_Q5DtANdHEeaHzf78xwyDuw" supplier="_SBJWcNdHEeaHzf78xwyDuw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D3JZENdLEea3eOg1svJllg" name="Business processes">
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_HfbHUNdLEea3eOg1svJllg" name="Request for insurance received"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_f3I5ENdLEea3eOg1svJllg" name="Claim received"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_tcfUcNdLEea3eOg1svJllg" name="Claim rejected"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_DWheMNfNEeaKOsI7LNrl7A" name=""/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_inwakNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_pHA3ENdNEeajTdWejc4ITw" name="Access1" client="_DWheMNfNEeaKOsI7LNrl7A" supplier="_tcfUcNdLEea3eOg1svJllg"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CEougN4uEeaTOf4LCvjE1w" name="Flow1" informationSource="_HfbHUNdLEea3eOg1svJllg" informationTarget="_80r30N4tEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_L7Bk0N4uEeaTOf4LCvjE1w" name="Flow2" informationSource="_80r30N4tEeaTOf4LCvjE1w" informationTarget="_F7j8wN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MN4PYN4uEeaTOf4LCvjE1w" name="Flow3" informationSource="_F7j8wN4uEeaTOf4LCvjE1w" informationTarget="_I5cqMN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lyWvMN4uEeaTOf4LCvjE1w" name="Flow4" informationSource="_f3I5ENdLEea3eOg1svJllg" informationTarget="_YehhoN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mHtUIN4uEeaTOf4LCvjE1w" name="Flow5" informationSource="_YehhoN4uEeaTOf4LCvjE1w" informationTarget="_b9SukN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mcX8kN4uEeaTOf4LCvjE1w" name="Flow6" informationSource="_b9SukN4uEeaTOf4LCvjE1w" informationTarget="_ept4kN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_muKQIN4uEeaTOf4LCvjE1w" name="Flow7" informationSource="_ept4kN4uEeaTOf4LCvjE1w" informationTarget="_g-ohgN4uEeaTOf4LCvjE1w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_nN11wN4uEeaTOf4LCvjE1w" name="Flow8" informationSource="_g-ohgN4uEeaTOf4LCvjE1w" informationTarget="_ivolEN4uEeaTOf4LCvjE1w _DWheMNfNEeaKOsI7LNrl7A"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_oMhrkN4uEeaTOf4LCvjE1w" name="Flow9" informationSource="_DWheMNfNEeaKOsI7LNrl7A" informationTarget="_ivolEN4uEeaTOf4LCvjE1w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_5bpfcN4tEeaTOf4LCvjE1w" name="Issue new policy"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_80r30N4tEeaTOf4LCvjE1w" name="Underwrite risk"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_F7j8wN4uEeaTOf4LCvjE1w" name="Produce policy"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_I5cqMN4uEeaTOf4LCvjE1w" name="Accept policy"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_UBk1MN4uEeaTOf4LCvjE1w" name="Handle claim"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_YehhoN4uEeaTOf4LCvjE1w" name="Capture information"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_b9SukN4uEeaTOf4LCvjE1w" name="Notify additional stakeholders"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_ept4kN4uEeaTOf4LCvjE1w" name="Validate"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_g-ohgN4uEeaTOf4LCvjE1w" name="Investigate"/>
+        <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_ivolEN4uEeaTOf4LCvjE1w" name="Pay"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_70r6ENfwEeaVvvvmUXbVKQ" name="Business objects">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AVqK4NfxEeaVvvvmUXbVKQ" name="Customer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Cp43UNfxEeaVvvvmUXbVKQ" name="Insurance File">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cc3wYNf1Eea674x1mBDWlA" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" association="_ccze8Nf1Eea674x1mBDWlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mHszwNfxEeaVvvvmUXbVKQ" name="Insurance request"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_retUsNfxEeaVvvvmUXbVKQ" name="Insurance Policy"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uQA-sNfxEeaVvvvmUXbVKQ" name="Claim"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_L7zSINfyEeaVvvvmUXbVKQ" name="Travel Insurance Policy">
+          <generalization xmi:type="uml:Generalization" xmi:id="_kizdENfyEeaVvvvmUXbVKQ" general="_retUsNfxEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OqV8ANfyEeaVvvvmUXbVKQ" name="Home Owners Insurance Policy">
+          <generalization xmi:type="uml:Generalization" xmi:id="_k0V5ANfyEeaVvvvmUXbVKQ" general="_retUsNfxEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SVuBkNfyEeaVvvvmUXbVKQ" name="Auto Insurance Policy">
+          <generalization xmi:type="uml:Generalization" xmi:id="_lHRcENfyEeaVvvvmUXbVKQ" general="_retUsNfxEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UNHBANfyEeaVvvvmUXbVKQ" name="Legal Expense Insurance Policy">
+          <generalization xmi:type="uml:Generalization" xmi:id="_lYgWANfyEeaVvvvmUXbVKQ" general="_retUsNfxEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_mZ1lENyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Association" xmi:id="_yCP6MNfxEeaVvvvmUXbVKQ" name="Composition3" memberEnd="_yCSWcdfxEeaVvvvmUXbVKQ _yCSWctfxEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yCRvYNfxEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yCSWcNfxEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_yCSWctfxEeaVvvvmUXbVKQ" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_yCP6MNfxEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_yCSWcdfxEeaVvvvmUXbVKQ" name="claim" type="_uQA-sNfxEeaVvvvmUXbVKQ" aggregation="composite" association="_yCP6MNfxEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_D2xEsNfyEeaVvvvmUXbVKQ" name="Association1" memberEnd="_D2y54tfyEeaVvvvmUXbVKQ _D2y549fyEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D2y54NfyEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D2y54dfyEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_D2y549fyEeaVvvvmUXbVKQ" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" association="_D2xEsNfyEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_D2y54tfyEeaVvvvmUXbVKQ" name="claim" type="_uQA-sNfxEeaVvvvmUXbVKQ" association="_D2xEsNfyEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_EppTINfyEeaVvvvmUXbVKQ" name="Association2" memberEnd="_EprIUtfyEeaVvvvmUXbVKQ _EprIU9fyEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EprIUNfyEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EprIUdfyEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_EprIU9fyEeaVvvvmUXbVKQ" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" association="_EppTINfyEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_EprIUtfyEeaVvvvmUXbVKQ" name="insurance request" type="_mHszwNfxEeaVvvvmUXbVKQ" association="_EppTINfyEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_UPmM8Nf1Eea674x1mBDWlA" name="Aggregation2" memberEnd="_UWsTcNf1Eea674x1mBDWlA _UWs6gNf1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UWrFUNf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UWrsYNf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_UWs6gNf1Eea674x1mBDWlA" name="customer" type="_AVqK4NfxEeaVvvvmUXbVKQ" association="_UPmM8Nf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_UWsTcNf1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" aggregation="shared" association="_UPmM8Nf1Eea674x1mBDWlA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Z7cVcNf1Eea674x1mBDWlA" name="Composition4" memberEnd="_Z7hN8Nf1Eea674x1mBDWlA _Z7hN8df1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z7gm4Nf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z7gm4df1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Z7hN8df1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_Z7cVcNf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Z7hN8Nf1Eea674x1mBDWlA" name="claim" type="_uQA-sNfxEeaVvvvmUXbVKQ" aggregation="composite" association="_Z7cVcNf1Eea674x1mBDWlA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ccze8Nf1Eea674x1mBDWlA" name="Association3" memberEnd="_cc3wYNf1Eea674x1mBDWlA _cc3wYdf1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cc3JUNf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cc3JUdf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_cc3wYdf1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_ccze8Nf1Eea674x1mBDWlA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wxKFwNfxEeaVvvvmUXbVKQ" name="Aggregation1" memberEnd="_wxO-QNfxEeaVvvvmUXbVKQ _wxPlUNfxEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wxNwINfxEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wxNwIdfxEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_wxPlUNfxEeaVvvvmUXbVKQ" name="customer" type="_AVqK4NfxEeaVvvvmUXbVKQ" association="_wxKFwNfxEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_wxO-QNfxEeaVvvvmUXbVKQ" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" aggregation="shared" association="_wxKFwNfxEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_xZcNwNfxEeaVvvvmUXbVKQ" name="Composition1" memberEnd="_xZeC8tfxEeaVvvvmUXbVKQ _xZeqANfxEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xZeC8NfxEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xZeC8dfxEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_xZeqANfxEeaVvvvmUXbVKQ" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_xZcNwNfxEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_xZeC8tfxEeaVvvvmUXbVKQ" name="insurance request" type="_mHszwNfxEeaVvvvmUXbVKQ" aggregation="composite" association="_xZcNwNfxEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_xsNYwNfxEeaVvvvmUXbVKQ" name="Composition2" memberEnd="_xsPN8tfxEeaVvvvmUXbVKQ _xsPN89fxEeaVvvvmUXbVKQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xsPN8NfxEeaVvvvmUXbVKQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xsPN8dfxEeaVvvvmUXbVKQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_xsPN89fxEeaVvvvmUXbVKQ" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_xsNYwNfxEeaVvvvmUXbVKQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_xsPN8tfxEeaVvvvmUXbVKQ" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" aggregation="composite" association="_xsNYwNfxEeaVvvvmUXbVKQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_M3AYgOk9EeajFcYchVfP7A" name="Organization">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_EUx-0NcgEeaaWe_kLaIOnw" name="ArchiSurance"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_YdININcgEeaaWe_kLaIOnw" name="Auto Back Office"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_P5MdMNcgEeaaWe_kLaIOnw" name="Front Office"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Sj8MMNcgEeaaWe_kLaIOnw" name="Homeowner's and Travel Back Office"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_e5zVoNcgEeaaWe_kLaIOnw" name="Legal Expense Back Office"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_aaBXoNcgEeaaWe_kLaIOnw" name="Shared Service Center"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_F9DkMNcgEeaaWe_kLaIOnw" name="Home &amp; Away headquarters">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qFHwguJCEeaaA6WG-Eegew" name="archisurance" type="_EUx-0NcgEeaaWe_kLaIOnw" association="_qFFUQOJCEeaaA6WG-Eegew"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Node" xmi:id="_MRfWsNcgEeaaWe_kLaIOnw" name="LegallyYours headquarters">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_q1KtYuJCEeaaA6WG-Eegew" name="archisurance" type="_EUx-0NcgEeaaWe_kLaIOnw" association="_q1I4MOJCEeaaA6WG-Eegew"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Node" xmi:id="_KGBksNcgEeaaWe_kLaIOnw" name="PRO-FIT headquarters">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qdcw8uJCEeaaA6WG-Eegew" name="archisurance" type="_EUx-0NcgEeaaWe_kLaIOnw" association="_qdaUsOJCEeaaA6WG-Eegew"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ZJiMoNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_TJhiAOJDEeaaA6WG-Eegew" name="Assignment2" client="_Sj8MMNcgEeaaWe_kLaIOnw" supplier="_F9DkMNcgEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_Tin-gOJDEeaaA6WG-Eegew" name="Assignment3" client="_YdININcgEeaaWe_kLaIOnw" supplier="_KGBksNcgEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_T0jcAOJDEeaaA6WG-Eegew" name="Assignment4" client="_aaBXoNcgEeaaWe_kLaIOnw" supplier="_KGBksNcgEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_UJZqoOJDEeaaA6WG-Eegew" name="Assignment5" client="_e5zVoNcgEeaaWe_kLaIOnw" supplier="_MRfWsNcgEeaaWe_kLaIOnw"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_qFFUQOJCEeaaA6WG-Eegew" name="Association1" memberEnd="_qFHwguJCEeaaA6WG-Eegew _qFHwg-JCEeaaA6WG-Eegew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qFHwgOJCEeaaA6WG-Eegew" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qFHwgeJCEeaaA6WG-Eegew" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qFHwg-JCEeaaA6WG-Eegew" name="home &amp; away headquarters" type="_F9DkMNcgEeaaWe_kLaIOnw" association="_qFFUQOJCEeaaA6WG-Eegew"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_qdaUsOJCEeaaA6WG-Eegew" name="Association2" memberEnd="_qdcw8uJCEeaaA6WG-Eegew _qddYAOJCEeaaA6WG-Eegew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qdcw8OJCEeaaA6WG-Eegew" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qdcw8eJCEeaaA6WG-Eegew" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qddYAOJCEeaaA6WG-Eegew" name="pro-fit headquarters" type="_KGBksNcgEeaaWe_kLaIOnw" association="_qdaUsOJCEeaaA6WG-Eegew"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_q1I4MOJCEeaaA6WG-Eegew" name="Association3" memberEnd="_q1KtYuJCEeaaA6WG-Eegew _q1LUcOJCEeaaA6WG-Eegew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q1KtYOJCEeaaA6WG-Eegew" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q1KtYeJCEeaaA6WG-Eegew" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_q1LUcOJCEeaaA6WG-Eegew" name="legallyyours headquarters" type="_MRfWsNcgEeaaWe_kLaIOnw" association="_q1I4MOJCEeaaA6WG-Eegew"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_ydQNMOJPEeaKs8UbEYP5OQ" name="Assignment1" client="_P5MdMNcgEeaaWe_kLaIOnw" supplier="_F9DkMNcgEeaaWe_kLaIOnw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cr5Y0NcOEeaaWe_kLaIOnw" name="Application">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O-seYNfREeaVvvvmUXbVKQ" name="Applications">
+        <packagedElement xmi:type="uml:Component" xmi:id="_FYkcMNfSEeaVvvvmUXbVKQ" name="Web portal"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_WHG2ENfSEeaVvvvmUXbVKQ" name="Call Center Application">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_f6ajMNfSEeaVvvvmUXbVKQ" name="Access1" client="_WHG2ENfSEeaVvvvmUXbVKQ" supplier="_bdWiANfSEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_iuX4kNfSEeaVvvvmUXbVKQ" name="Access2" client="_WHG2ENfSEeaVvvvmUXbVKQ" supplier="_Y33tgNfSEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Y33tgNfSEeaVvvvmUXbVKQ" name="Legal Expense CRM System">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_sYHaANfSEeaVvvvmUXbVKQ" name="Access1" client="_Y33tgNfSEeaVvvvmUXbVKQ" supplier="_FYkcMNfSEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_bdWiANfSEeaVvvvmUXbVKQ" name="General CRM System">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_lC11kNfSEeaVvvvmUXbVKQ" name="Access1" client="_bdWiANfSEeaVvvvmUXbVKQ" supplier="_WHG2ENfSEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_otEEkNfSEeaVvvvmUXbVKQ" name="Access2" client="_bdWiANfSEeaVvvvmUXbVKQ" supplier="_FYkcMNfSEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_CL7PINfUEeaVvvvmUXbVKQ" name="Home &amp; Away Financial Application">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_TSgVkNfUEeaVvvvmUXbVKQ" name="Access1" client="_CL7PINfUEeaVvvvmUXbVKQ" supplier="_FXU0INfUEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_FXU0INfUEeaVvvvmUXbVKQ" name="Home &amp; Away Financial Administration">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_UIrIkNfUEeaVvvvmUXbVKQ" name="Access1" client="_FXU0INfUEeaVvvvmUXbVKQ" supplier="_CL7PINfUEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_VEQnENfUEeaVvvvmUXbVKQ" name="Access2" client="_FXU0INfUEeaVvvvmUXbVKQ" supplier="_bdWiANfSEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_zOtMcNfUEeaVvvvmUXbVKQ" name="Access3" client="_FXU0INfUEeaVvvvmUXbVKQ" supplier="_iSC3ANfUEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Jr4ZkNfUEeaVvvvmUXbVKQ" name="Auto Insurance Application">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_WEk0kNfUEeaVvvvmUXbVKQ" name="Access1" client="_Jr4ZkNfUEeaVvvvmUXbVKQ" supplier="_bdWiANfSEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_0zfY8NfUEeaVvvvmUXbVKQ" name="Access2" client="_Jr4ZkNfUEeaVvvvmUXbVKQ" supplier="_iSC3ANfUEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_NSIukNfUEeaVvvvmUXbVKQ" name="Legal Expense Back-Office System">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_byKpgNfUEeaVvvvmUXbVKQ" name="Access1" client="_NSIukNfUEeaVvvvmUXbVKQ" supplier="_Y33tgNfSEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_18qAcNfUEeaVvvvmUXbVKQ" name="Access2" client="_NSIukNfUEeaVvvvmUXbVKQ" supplier="_iSC3ANfUEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_iSC3ANfUEeaVvvvmUXbVKQ" name="Document Management System">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_oUdscNfUEeaVvvvmUXbVKQ" name="Access1" client="_iSC3ANfUEeaVvvvmUXbVKQ" supplier="_CL7PINfUEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_v4LVgNfUEeaVvvvmUXbVKQ" name="Access2" client="_iSC3ANfUEeaVvvvmUXbVKQ" supplier="_FXU0INfUEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_0eKCINfUEeaVvvvmUXbVKQ" name="Access3" client="_iSC3ANfUEeaVvvvmUXbVKQ" supplier="_Jr4ZkNfUEeaVvvvmUXbVKQ"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_1lUegNfUEeaVvvvmUXbVKQ" name="Access4" client="_iSC3ANfUEeaVvvvmUXbVKQ" supplier="_NSIukNfUEeaVvvvmUXbVKQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_5dCowN48Eeau951k4I2Xmw" name="Front Office"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_A718oN49Eeau951k4I2Xmw" name="Back Office"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_EZyDIN49Eeau951k4I2Xmw" name="Shared Service Center"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lCvaANf1Eea674x1mBDWlA" name="Data model">
+        <packagedElement xmi:type="uml:Class" xmi:id="_nma3sNf1Eea674x1mBDWlA" name="Insurance Policy"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nmcF0Nf1Eea674x1mBDWlA" name="Claim"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nmcF0df1Eea674x1mBDWlA" name="Customer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nmdT8Nf1Eea674x1mBDWlA" name="Insurance File">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_nmdT8df1Eea674x1mBDWlA" name="insurance policy" type="_nma3sNf1Eea674x1mBDWlA" association="_nmbewNf1Eea674x1mBDWlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qewWwNf1Eea674x1mBDWlA" name="Claim data"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ry5fMNf1Eea674x1mBDWlA" name="Policy Data"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_9XxEINf1Eea674x1mBDWlA" name="Customer Data Access"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_AXoukNf2Eea674x1mBDWlA" name="Policy Data Management"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fq2UoNf2Eea674x1mBDWlA" name="Customer Data"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vLrOINyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Realization" xmi:id="_JgmeMNf2Eea674x1mBDWlA" name="Realization1" client="_Fq2UoNf2Eea674x1mBDWlA" supplier="_nmcF0df1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_OwTdQNf2Eea674x1mBDWlA" name="Access1" client="_9XxEINf1Eea674x1mBDWlA" supplier="_Fq2UoNf2Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_PusYINf2Eea674x1mBDWlA" name="Access2" client="_AXoukNf2Eea674x1mBDWlA" supplier="_ry5fMNf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_SA8HkNf2Eea674x1mBDWlA" name="Realization2" client="_qewWwNf1Eea674x1mBDWlA" supplier="_nmcF0Nf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_Ve4OENf2Eea674x1mBDWlA" name="Access3" client="_AXoukNf2Eea674x1mBDWlA" supplier="_qewWwNf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_bfaNINf2Eea674x1mBDWlA" name="Realization3" client="_ry5fMNf1Eea674x1mBDWlA" supplier="_nma3sNf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nmcs4Nf1Eea674x1mBDWlA" name="Aggregation2" memberEnd="_nmcs5Nf1Eea674x1mBDWlA _nmcs49f1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmcs4df1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmcs4tf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs49f1Eea674x1mBDWlA" name="customer" type="_nmcF0df1Eea674x1mBDWlA" association="_nmcs4Nf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs5Nf1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" aggregation="shared" association="_nmcs4Nf1Eea674x1mBDWlA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nmd7ANf1Eea674x1mBDWlA" name="Composition4" memberEnd="_nmd7BNf1Eea674x1mBDWlA _nmd7A9f1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmd7Adf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmd7Atf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7A9f1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" association="_nmd7ANf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7BNf1Eea674x1mBDWlA" name="claim" type="_nmcF0Nf1Eea674x1mBDWlA" aggregation="composite" association="_nmd7ANf1Eea674x1mBDWlA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_nmbewNf1Eea674x1mBDWlA" name="Association3" memberEnd="_nmdT8df1Eea674x1mBDWlA _nmbew9f1Eea674x1mBDWlA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmbewdf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmbewtf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmbew9f1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" association="_nmbewNf1Eea674x1mBDWlA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_rPzcEN4-Eeau951k4I2Xmw" name="Home &amp; Away Policy Administration"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_eky0INcOEeaaWe_kLaIOnw" name="Technology">
+      <packagedElement xmi:type="uml:Package" xmi:id="_kGy5sNf2Eea674x1mBDWlA" name="Infrastructure">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_tAycYNf6Eeay9K0f8CwyqA">
+          <body>Web Portal</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_v3lDUNf6Eeay9K0f8CwyqA">
+          <body>Call Center Application&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_0RzL4Nf6Eeay9K0f8CwyqA">
+          <body>General CRM System</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_26P00Nf6Eeay9K0f8CwyqA">
+          <body>Legal Expense CRM System</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_-WT9wNf6Eeay9K0f8CwyqA">
+          <body>Home &amp; Away Financial Application</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_CkBUUNf7Eeay9K0f8CwyqA">
+          <body>Home &amp; Away Policy Administration</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_IasMwNf7Eeay9K0f8CwyqA">
+          <body>Legal Expense Back Office System</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_NBagQNf7Eeay9K0f8CwyqA">
+          <body>Document Management System</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_POUcsNf7Eeay9K0f8CwyqA">
+          <body>Auto Insurance Application</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_G-iUoNf3Eeay9K0f8CwyqA" name="Home &amp; Away Headquarters"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L7-fANf3Eeay9K0f8CwyqA" name="Front Office"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ogcm4Nf3Eeay9K0f8CwyqA" name="Home Owners &amp; Travel Back Office"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_Ubnk0Nf3Eeay9K0f8CwyqA" name="FO General Purpose Server"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_X-5eUNf3Eeay9K0f8CwyqA" name="FO Web Hosting Server"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_f0EDwNf3Eeay9K0f8CwyqA" name="Home &amp; Away General Purpose Server"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_m763QNf3Eeay9K0f8CwyqA" name="Home &amp; Away LAN"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_sbjIsNf3Eeay9K0f8CwyqA" name="ArchiSurance WAN"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Qm5gkNf4Eeay9K0f8CwyqA" name="Legally Yours Headquarters"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_VvkDgNf4Eeay9K0f8CwyqA" name="Legal Expense Back Office"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_jXrfANf4Eeay9K0f8CwyqA" name="Legal Expense General Purpose Server"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_uLzI4Nf4Eeay9K0f8CwyqA" name="PRO-FIT LAN"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_7Boy4Nf4Eeay9K0f8CwyqA" name="PRO-FIT Headquarters"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_B9cHYNf5Eeay9K0f8CwyqA" name="Auto General Purpose Server"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Fu-fUNf5Eeay9K0f8CwyqA" name="Auto Back Office"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lw0EINf5Eeay9K0f8CwyqA" name="Shared Service Center"/>
+        <packagedElement xmi:type="uml:Node" xmi:id="_n_fiMNf5Eeay9K0f8CwyqA" name="Document Management Server"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_zcHIkNyxEeaLYoMRKMw9dQ" name="Relations">
+          <packagedElement xmi:type="uml:Usage" xmi:id="_hnJ8kNf4Eeay9K0f8CwyqA" name="UsedBy4" client="_sbjIsNf3Eeay9K0f8CwyqA" supplier="_m763QNf3Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_sokbkNf4Eeay9K0f8CwyqA" name="UsedBy5" client="_sbjIsNf3Eeay9K0f8CwyqA" supplier="_jXrfANf4Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_wiyOYNf4Eeay9K0f8CwyqA" name="UsedBy6" client="_sbjIsNf3Eeay9K0f8CwyqA" supplier="_uLzI4Nf4Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_qOCdYNf5Eeay9K0f8CwyqA" name="UsedBy7" client="_uLzI4Nf4Eeay9K0f8CwyqA" supplier="_n_fiMNf5Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_qrw7MNf5Eeay9K0f8CwyqA" name="UsedBy8" client="_uLzI4Nf4Eeay9K0f8CwyqA" supplier="_B9cHYNf5Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_dw41oNf4Eeay9K0f8CwyqA" name="UsedBy1" client="_m763QNf3Eeay9K0f8CwyqA" supplier="_f0EDwNf3Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_elqhgNf4Eeay9K0f8CwyqA" name="UsedBy2" client="_m763QNf3Eeay9K0f8CwyqA" supplier="_Ubnk0Nf3Eeay9K0f8CwyqA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_e7avENf4Eeay9K0f8CwyqA" name="UsedBy3" client="_m763QNf3Eeay9K0f8CwyqA" supplier="_X-5eUNf3Eeay9K0f8CwyqA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_f5MbQNcOEeaaWe_kLaIOnw" name="Implementation and migration">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgerwN5ZEeaMxY5qywk8Zw" name="Organization with insufficient policy and issue handling">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_0Uc4IN5ZEeaMxY5qywk8Zw" name="improved issue and policy handling" type="_U0G20N5ZEeaMxY5qywk8Zw" association="_0UWxgN5ZEeaMxY5qywk8Zw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_T0sBMN5ZEeaMxY5qywk8Zw" name="Organization with improved policy and issue handling">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1vD08N5ZEeaMxY5qywk8Zw" name="improved issue and policy handling" type="_U0G20N5ZEeaMxY5qywk8Zw" association="_1vAxoN5ZEeaMxY5qywk8Zw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_U0G20N5ZEeaMxY5qywk8Zw" name="Improved issue and policy handling" fileName=""/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_L9hOIOIeEeaLHtJH8k5fRg" name="Relations">
+        <packagedElement xmi:type="uml:Association" xmi:id="_0UWxgN5ZEeaMxY5qywk8Zw" name="Association1" memberEnd="_0Uc4IN5ZEeaMxY5qywk8Zw _0UdfMN5ZEeaMxY5qywk8Zw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0UbqAN5ZEeaMxY5qywk8Zw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0UbqAd5ZEeaMxY5qywk8Zw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_0UdfMN5ZEeaMxY5qywk8Zw" name="insufficient policy and issue handling" type="_TgerwN5ZEeaMxY5qywk8Zw" association="_0UWxgN5ZEeaMxY5qywk8Zw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_1vAxoN5ZEeaMxY5qywk8Zw" name="Association2" memberEnd="_1vD08N5ZEeaMxY5qywk8Zw _1vD08d5ZEeaMxY5qywk8Zw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1vDN4N5ZEeaMxY5qywk8Zw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vDN4d5ZEeaMxY5qywk8Zw" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_1vD08d5ZEeaMxY5qywk8Zw" name="improved policy and issue handling" type="_T0sBMN5ZEeaMxY5qywk8Zw" association="_1vAxoN5ZEeaMxY5qywk8Zw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WcMVUNcOEeaaWe_kLaIOnw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NFsyAO6yEeaiCMEx6O2-XA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyAe6yEeaiCMEx6O2-XA" key="Version" value="1.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyAu6yEeaiCMEx6O2-XA" key="Comment" value="First official version of the open-source ArchiMate profile for Papyrus."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyA-6yEeaiCMEx6O2-XA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyBO6yEeaiCMEx6O2-XA" key="Date" value="2017-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyBe6yEeaiCMEx6O2-XA" key="Author" value="Adocus AB"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WcR04NcOEeaaWe_kLaIOnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_XGdxQHbsEeSz4u81gQL_Gw"/>
+    </profileApplication>
+  </uml:Model>
+  <ArchiMate:MotivationExtension xmi:id="_YcMeMNcOEeaaWe_kLaIOnw" base_Package="_YcIz0NcOEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessLayer xmi:id="_auf4ANcOEeaaWe_kLaIOnw" base_Package="_audbwNcOEeaaWe_kLaIOnw"/>
+  <ArchiMate:ApplicationLayer xmi:id="_cr7OANcOEeaaWe_kLaIOnw" base_Package="_cr5Y0NcOEeaaWe_kLaIOnw"/>
+  <ArchiMate:TechnologyLayer xmi:id="_ek0pUNcOEeaaWe_kLaIOnw" base_Package="_eky0INcOEeaaWe_kLaIOnw"/>
+  <ArchiMate:ImplementationAndMigrationExtension xmi:id="_f5OQcNcOEeaaWe_kLaIOnw" base_Package="_f5MbQNcOEeaaWe_kLaIOnw"/>
+  <ArchiMate:Stakeholder xmi:id="_ZPYZMNcPEeaaWe_kLaIOnw" base_Class="_ZPV88NcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_apFXENcPEeaaWe_kLaIOnw" base_Class="_apC60NcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_cMHQENcPEeaaWe_kLaIOnw" base_Class="_cMFa4NcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_f5YzENcPEeaaWe_kLaIOnw" base_Class="_f5WW0NcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Aggregation xmi:id="_jGj5sNcPEeaaWe_kLaIOnw" base_Association="_jGfBMNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_rWOCwNcPEeaaWe_kLaIOnw" base_Association="_rWKYYNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_ryl1sNcPEeaaWe_kLaIOnw" base_Association="_rykAgNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_uToPENcPEeaaWe_kLaIOnw" base_Class="_uTlLwNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_yOmP0NcPEeaaWe_kLaIOnw" base_Association="_yOjMgNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Stakeholder xmi:id="_0HPzgNcPEeaaWe_kLaIOnw" base_Class="_0HNXQNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_2Thd0NcPEeaaWe_kLaIOnw" base_Association="_2TdMYNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_4F-58NcPEeaaWe_kLaIOnw" base_Class="_4F9EwNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_7RfzsNcPEeaaWe_kLaIOnw" base_Association="_7RcJUNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Driver xmi:id="_8XWBcNcPEeaaWe_kLaIOnw" base_Class="_8XTlMNcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_9NzvYNcPEeaaWe_kLaIOnw" base_Association="_9NwFANcPEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_N1G40NcQEeaaWe_kLaIOnw" base_Class="_N1FDoNcQEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_UncvUNcQEeaaWe_kLaIOnw" base_Class="_Una6INcQEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_ue-F8NcbEeaaWe_kLaIOnw" base_Class="_ue7psNcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_xh32QNcbEeaaWe_kLaIOnw" base_Class="_xh2oINcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_zO-RQNcbEeaaWe_kLaIOnw" base_Class="_zO9DINcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_1uluUNcbEeaaWe_kLaIOnw" base_Class="_1uj5INcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_5CP3cNcbEeaaWe_kLaIOnw" base_Association="_5CNbMNcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_5846wNcbEeaaWe_kLaIOnw" base_Class="_583FkNcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="_9Y2EQNcbEeaaWe_kLaIOnw" base_Class="_9Y0PENcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Goal xmi:id="__RKQwNcbEeaaWe_kLaIOnw" base_Class="__RIbkNcbEeaaWe_kLaIOnw"/>
+  <ArchiMate:Aggregation xmi:id="_Do9-gdccEeaaWe_kLaIOnw" base_Association="_Do7iQNccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Aggregation xmi:id="_EASSUdccEeaaWe_kLaIOnw" base_Association="_EAQdINccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Aggregation xmi:id="_ElIr0NccEeaaWe_kLaIOnw" base_Association="_ElG2oNccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Influence xmi:id="_mOWeINccEeaaWe_kLaIOnw" base_Dependency="_mOUB4NccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Aggregation xmi:id="_nn3OwNccEeaaWe_kLaIOnw" base_Association="_nn0LcNccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Influence xmi:id="_vMYJENccEeaaWe_kLaIOnw" base_Dependency="_vMWT4NccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Influence xmi:id="_wrHX8NccEeaaWe_kLaIOnw" base_Dependency="_wrGJ0NccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Influence xmi:id="_yxBUgNccEeaaWe_kLaIOnw" base_Dependency="_yxAGYNccEeaaWe_kLaIOnw"/>
+  <ArchiMate:Principle xmi:id="_Hh5icNcdEeaaWe_kLaIOnw" base_Class="_Hh3GMNcdEeaaWe_kLaIOnw"/>
+  <ArchiMate:Principle xmi:id="_Lv5z8NcdEeaaWe_kLaIOnw" base_Class="_Lv3-wNcdEeaaWe_kLaIOnw"/>
+  <ArchiMate:Realization xmi:id="_fDyC8NceEeaaWe_kLaIOnw" base_Realization="_fDwNwNceEeaaWe_kLaIOnw"/>
+  <ArchiMate:Realization xmi:id="_fbMdYNceEeaaWe_kLaIOnw" base_Realization="_fbL2UNceEeaaWe_kLaIOnw"/>
+  <ArchiMate:Realization xmi:id="_gBzxcNceEeaaWe_kLaIOnw" base_Realization="_gByjUNceEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_EU0bENcgEeaaWe_kLaIOnw" base_Actor="_EUx-0NcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:Location xmi:id="_F9FZYNcgEeaaWe_kLaIOnw" base_Node="_F9DkMNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:Location xmi:id="_KGEA8NcgEeaaWe_kLaIOnw" base_Node="_KGBksNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:Location xmi:id="_MRgk0NcgEeaaWe_kLaIOnw" base_Node="_MRfWsNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_P5OSYNcgEeaaWe_kLaIOnw" base_Actor="_P5MdMNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_Sj9aUNcgEeaaWe_kLaIOnw" base_Actor="_Sj8MMNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_YdKCUNcgEeaaWe_kLaIOnw" base_Actor="_YdININcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_aaClwNcgEeaaWe_kLaIOnw" base_Actor="_aaBXoNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessActor xmi:id="_e50jwNcgEeaaWe_kLaIOnw" base_Actor="_e5zVoNcgEeaaWe_kLaIOnw"/>
+  <ArchiMate:BusinessFunction xmi:id="_13evUNdBEeajMp5CdNtSuQ" base_Collaboration="_13WMcNdBEeajMp5CdNtSuQ"/>
+  <ArchiMate:BusinessFunction xmi:id="_3GzCINdBEeajMp5CdNtSuQ" base_Collaboration="_3Gv-0NdBEeajMp5CdNtSuQ"/>
+  <ArchiMate:BusinessFunction xmi:id="_LDPwMNdHEeaHzf78xwyDuw" base_Collaboration="_Kz1bMNdHEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessFunction xmi:id="_Q5IlgNdHEeaHzf78xwyDuw" base_Collaboration="_Q5DtANdHEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessFunction xmi:id="_SBMZwNdHEeaHzf78xwyDuw" base_Collaboration="_SBJWcNdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_YhjvcNdHEeaHzf78xwyDuw" base_Usage="_YhgFENdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_Z4XKUNdHEeaHzf78xwyDuw" base_Usage="_Z4Tf8NdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_amMgsNdHEeaHzf78xwyDuw" base_Usage="_amKEcNdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_a6CpwNdHEeaHzf78xwyDuw" base_Usage="_a6ANgNdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_bqnyINdHEeaHzf78xwyDuw" base_Usage="_bql88NdHEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_cTYbQNdHEeaHzf78xwyDuw" base_Usage="_cTVX8NdHEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessRole xmi:id="_ROs68NdJEeaHzf78xwyDuw" base_Class="_ROrFwNdJEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_U3BFcNdJEeaHzf78xwyDuw" base_Usage="_U2_QQNdJEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_al-MUNdJEeaHzf78xwyDuw" base_Usage="_al8XINdJEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessFunction xmi:id="_os1ZUNdJEeaHzf78xwyDuw" base_Collaboration="_osy9ENdJEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessFunction xmi:id="_-N1coNdJEeaHzf78xwyDuw" base_Collaboration="_-NzncNdJEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessFunction xmi:id="_AGFXsNdKEeaHzf78xwyDuw" base_Collaboration="_AGDigNdKEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessRole xmi:id="_EKF_sNdKEeaHzf78xwyDuw" base_Class="_EKEKgNdKEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_Gk-GsNdKEeaHzf78xwyDuw" base_Usage="_Gk7qcNdKEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_Qah2kNdKEeaHzf78xwyDuw" base_Usage="_QagBYNdKEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_XMjkANdKEeaHzf78xwyDuw" base_Usage="_XMiV4NdKEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_ddaeENdKEeaHzf78xwyDuw" base_Usage="_ddYo4NdKEeaHzf78xwyDuw"/>
+  <ArchiMate:Access xmi:id="_eYwsANdKEeaHzf78xwyDuw" base_Usage="_eYvd4NdKEeaHzf78xwyDuw"/>
+  <ArchiMate:BusinessEvent xmi:id="_Hmib8NdLEea3eOg1svJllg" base_OpaqueBehavior="_HfbHUNdLEea3eOg1svJllg"/>
+  <ArchiMate:BusinessEvent xmi:id="_f3NKgNdLEea3eOg1svJllg" base_OpaqueBehavior="_f3I5ENdLEea3eOg1svJllg"/>
+  <ArchiMate:BusinessEvent xmi:id="_tchJoNdLEea3eOg1svJllg" base_OpaqueBehavior="_tcfUcNdLEea3eOg1svJllg"/>
+  <ArchiMate:Access xmi:id="_pHUZENdNEeajTdWejc4ITw" base_Usage="_pHA3ENdNEeajTdWejc4ITw"/>
+  <ArchiMate:Junction xmi:id="_DejY0NfNEeaKOsI7LNrl7A" base_OpaqueBehavior="_DWheMNfNEeaKOsI7LNrl7A"/>
+  <ArchiMate:ApplicationComponent xmi:id="_FYoGkNfSEeaVvvvmUXbVKQ" base_Component="_FYkcMNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_WHJSUNfSEeaVvvvmUXbVKQ" base_Component="_WHG2ENfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_Y36w0NfSEeaVvvvmUXbVKQ" base_Component="_Y33tgNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_bdZlUNfSEeaVvvvmUXbVKQ" base_Component="_bdWiANfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_f6dmgNfSEeaVvvvmUXbVKQ" base_Usage="_f6ajMNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_iua74NfSEeaVvvvmUXbVKQ" base_Usage="_iuX4kNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_lC4R0NfSEeaVvvvmUXbVKQ" base_Usage="_lC11kNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_otF5wNfSEeaVvvvmUXbVKQ" base_Usage="_otEEkNfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_sYJ2QNfSEeaVvvvmUXbVKQ" base_Usage="_sYHaANfSEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_CL9rYNfUEeaVvvvmUXbVKQ" base_Component="_CL7PINfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_FXWpUNfUEeaVvvvmUXbVKQ" base_Component="_FXU0INfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_Jr610NfUEeaVvvvmUXbVKQ" base_Component="_Jr4ZkNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_NSKjwNfUEeaVvvvmUXbVKQ" base_Component="_NSIukNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_TSiKwNfUEeaVvvvmUXbVKQ" base_Usage="_TSgVkNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_UIs9wNfUEeaVvvvmUXbVKQ" base_Usage="_UIrIkNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_VEScQNfUEeaVvvvmUXbVKQ" base_Usage="_VEQnENfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_WEmCsNfUEeaVvvvmUXbVKQ" base_Usage="_WEk0kNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_byMesNfUEeaVvvvmUXbVKQ" base_Usage="_byKpgNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:ApplicationComponent xmi:id="_iSHIcNfUEeaVvvvmUXbVKQ" base_Component="_iSC3ANfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_oUfhoNfUEeaVvvvmUXbVKQ" base_Usage="_oUdscNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_v4NKsNfUEeaVvvvmUXbVKQ" base_Usage="_v4LVgNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_zOuakNfUEeaVvvvmUXbVKQ" base_Usage="_zOtMcNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_0eLQQNfUEeaVvvvmUXbVKQ" base_Usage="_0eKCINfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_0zgnENfUEeaVvvvmUXbVKQ" base_Usage="_0zfY8NfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_1lWTsNfUEeaVvvvmUXbVKQ" base_Usage="_1lUegNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Access xmi:id="_18r1oNfUEeaVvvvmUXbVKQ" base_Usage="_18qAcNfUEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_AVtOMNfxEeaVvvvmUXbVKQ" base_Class="_AVqK4NfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_Cp7TkNfxEeaVvvvmUXbVKQ" base_Class="_Cp43UNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_mHv3ENfxEeaVvvvmUXbVKQ" base_Class="_mHszwNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_reui0NfxEeaVvvvmUXbVKQ" base_Class="_retUsNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_uQCz4NfxEeaVvvvmUXbVKQ" base_Class="_uQA-sNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Aggregation xmi:id="_wxTPsNfxEeaVvvvmUXbVKQ" base_Association="_wxKFwNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Composition xmi:id="_xZeqAdfxEeaVvvvmUXbVKQ" base_Association="_xZcNwNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Composition xmi:id="_xsP1ANfxEeaVvvvmUXbVKQ" base_Association="_xsNYwNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Composition xmi:id="_yCS9gNfxEeaVvvvmUXbVKQ" base_Association="_yCP6MNfxEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Association xmi:id="_D2zg8NfyEeaVvvvmUXbVKQ" base_Association="_D2xEsNfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Association xmi:id="_EprvYNfyEeaVvvvmUXbVKQ" base_Association="_EppTINfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_L71uYNfyEeaVvvvmUXbVKQ" base_Class="_L7zSINfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_OqXxMNfyEeaVvvvmUXbVKQ" base_Class="_OqV8ANfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_SVv2wNfyEeaVvvvmUXbVKQ" base_Class="_SVuBkNfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:BusinessObject xmi:id="_UNKEUNfyEeaVvvvmUXbVKQ" base_Class="_UNHBANfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Specialization xmi:id="_ki0rMNfyEeaVvvvmUXbVKQ" base_Generalization="_kizdENfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Specialization xmi:id="_k0XuMNfyEeaVvvvmUXbVKQ" base_Generalization="_k0V5ANfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Specialization xmi:id="_lHSqMNfyEeaVvvvmUXbVKQ" base_Generalization="_lHRcENfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Specialization xmi:id="_lYiLMNfyEeaVvvvmUXbVKQ" base_Generalization="_lYgWANfyEeaVvvvmUXbVKQ"/>
+  <ArchiMate:Aggregation xmi:id="_UWuvsNf1Eea674x1mBDWlA" base_Association="_UPmM8Nf1Eea674x1mBDWlA"/>
+  <ArchiMate:Composition xmi:id="_Z7lfYNf1Eea674x1mBDWlA" base_Association="_Z7cVcNf1Eea674x1mBDWlA"/>
+  <ArchiMate:Association xmi:id="_cc4XcNf1Eea674x1mBDWlA" base_Association="_ccze8Nf1Eea674x1mBDWlA"/>
+  <ArchiMate:BusinessObject xmi:id="_nmg-UNf1Eea674x1mBDWlA" base_Class="_nmdT8Nf1Eea674x1mBDWlA"/>
+  <ArchiMate:BusinessObject xmi:id="_nmiMcNf1Eea674x1mBDWlA" base_Class="_nma3sNf1Eea674x1mBDWlA"/>
+  <ArchiMate:BusinessObject xmi:id="_nmizgNf1Eea674x1mBDWlA" base_Class="_nmcF0df1Eea674x1mBDWlA"/>
+  <ArchiMate:Aggregation xmi:id="_nmjakNf1Eea674x1mBDWlA" base_Association="_nmcs4Nf1Eea674x1mBDWlA"/>
+  <ArchiMate:Composition xmi:id="_nmkBoNf1Eea674x1mBDWlA" base_Association="_nmd7ANf1Eea674x1mBDWlA"/>
+  <ArchiMate:Association xmi:id="_nmkosNf1Eea674x1mBDWlA" base_Association="_nmbewNf1Eea674x1mBDWlA"/>
+  <ArchiMate:BusinessObject xmi:id="_nmlPwNf1Eea674x1mBDWlA" base_Class="_nmcF0Nf1Eea674x1mBDWlA"/>
+  <ArchiMate:DataObject xmi:id="_qe0BINf1Eea674x1mBDWlA" base_Class="_qewWwNf1Eea674x1mBDWlA"/>
+  <ArchiMate:DataObject xmi:id="_ry9JkNf1Eea674x1mBDWlA" base_Class="_ry5fMNf1Eea674x1mBDWlA"/>
+  <ArchiMate:ApplicationFunction xmi:id="_9X0HcNf1Eea674x1mBDWlA" base_Collaboration="_9XxEINf1Eea674x1mBDWlA"/>
+  <ArchiMate:ApplicationFunction xmi:id="_AXsY8Nf2Eea674x1mBDWlA" base_Collaboration="_AXoukNf2Eea674x1mBDWlA"/>
+  <ArchiMate:DataObject xmi:id="_Fq6mENf2Eea674x1mBDWlA" base_Class="_Fq2UoNf2Eea674x1mBDWlA"/>
+  <ArchiMate:Realization xmi:id="_Jgo6cNf2Eea674x1mBDWlA" base_Realization="_JgmeMNf2Eea674x1mBDWlA"/>
+  <ArchiMate:Access xmi:id="_OwXHoNf2Eea674x1mBDWlA" base_Usage="_OwTdQNf2Eea674x1mBDWlA"/>
+  <ArchiMate:Access xmi:id="_PuuNUNf2Eea674x1mBDWlA" base_Usage="_PusYINf2Eea674x1mBDWlA"/>
+  <ArchiMate:Realization xmi:id="_SA98wNf2Eea674x1mBDWlA" base_Realization="_SA8HkNf2Eea674x1mBDWlA"/>
+  <ArchiMate:Access xmi:id="_Ve6DQNf2Eea674x1mBDWlA" base_Usage="_Ve4OENf2Eea674x1mBDWlA"/>
+  <ArchiMate:Realization xmi:id="_bfcpYNf2Eea674x1mBDWlA" base_Realization="_bfaNINf2Eea674x1mBDWlA"/>
+  <ArchiMate:Node xmi:id="_UbsdUNf3Eeay9K0f8CwyqA" base_Node="_Ubnk0Nf3Eeay9K0f8CwyqA"/>
+  <ArchiMate:Node xmi:id="_X-9IsNf3Eeay9K0f8CwyqA" base_Node="_X-5eUNf3Eeay9K0f8CwyqA"/>
+  <ArchiMate:Node xmi:id="_f0HHENf3Eeay9K0f8CwyqA" base_Node="_f0EDwNf3Eeay9K0f8CwyqA"/>
+  <ArchiMate:Network xmi:id="_m796kNf3Eeay9K0f8CwyqA" base_Node="_m763QNf3Eeay9K0f8CwyqA"/>
+  <ArchiMate:Network xmi:id="_sbmzENf3Eeay9K0f8CwyqA" base_Node="_sbjIsNf3Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_dw9HENf4Eeay9K0f8CwyqA" base_Usage="_dw41oNf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_els9wNf4Eeay9K0f8CwyqA" base_Usage="_elqhgNf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_e7dLUNf4Eeay9K0f8CwyqA" base_Usage="_e7avENf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_hnMY0Nf4Eeay9K0f8CwyqA" base_Usage="_hnJ8kNf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:Node xmi:id="_jXtUMNf4Eeay9K0f8CwyqA" base_Node="_jXrfANf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_sone4Nf4Eeay9K0f8CwyqA" base_Usage="_sokbkNf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:Network xmi:id="_uL0-ENf4Eeay9K0f8CwyqA" base_Node="_uLzI4Nf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_wi0DkNf4Eeay9K0f8CwyqA" base_Usage="_wiyOYNf4Eeay9K0f8CwyqA"/>
+  <ArchiMate:Node xmi:id="_B9ejoNf5Eeay9K0f8CwyqA" base_Node="_B9cHYNf5Eeay9K0f8CwyqA"/>
+  <ArchiMate:Node xmi:id="_n_h-cNf5Eeay9K0f8CwyqA" base_Node="_n_fiMNf5Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_qOESkNf5Eeay9K0f8CwyqA" base_Usage="_qOCdYNf5Eeay9K0f8CwyqA"/>
+  <ArchiMate:UsedBy xmi:id="_qrywYNf5Eeay9K0f8CwyqA" base_Usage="_qrw7MNf5Eeay9K0f8CwyqA"/>
+  <ArchiMate:BusinessProcess xmi:id="_5rmnAN4tEeaTOf4LCvjE1w" base_OpaqueBehavior="_5bpfcN4tEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_80xXYN4tEeaTOf4LCvjE1w" base_OpaqueBehavior="_80r30N4tEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_CEu1IN4uEeaTOf4LCvjE1w" base_InformationFlow="_CEougN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_F7o1QN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_F7j8wN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_I5ftgN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_I5cqMN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_L7FPMN4uEeaTOf4LCvjE1w" base_InformationFlow="_L7Bk0N4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_MN8g0N4uEeaTOf4LCvjE1w" base_InformationFlow="_MN4PYN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_UBnRcN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_UBk1MN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_Yej94N4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_YehhoN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_b9UjwN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_b9SukN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_epwU0N4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_ept4kN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_g-qWsN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_g-ohgN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:BusinessProcess xmi:id="_ivqaQN4uEeaTOf4LCvjE1w" base_OpaqueBehavior="_ivolEN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_lyYkYN4uEeaTOf4LCvjE1w" base_InformationFlow="_lyWvMN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_mHvJUN4uEeaTOf4LCvjE1w" base_InformationFlow="_mHtUIN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_mcZxwN4uEeaTOf4LCvjE1w" base_InformationFlow="_mcX8kN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_muLeQN4uEeaTOf4LCvjE1w" base_InformationFlow="_muKQIN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_nN3q8N4uEeaTOf4LCvjE1w" base_InformationFlow="_nN11wN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:Flow xmi:id="_oMkH0N4uEeaTOf4LCvjE1w" base_InformationFlow="_oMhrkN4uEeaTOf4LCvjE1w"/>
+  <ArchiMate:ApplicationComponent xmi:id="_5dLysN48Eeau951k4I2Xmw" base_Component="_5dCowN48Eeau951k4I2Xmw"/>
+  <ArchiMate:ApplicationComponent xmi:id="_A74Y4N49Eeau951k4I2Xmw" base_Component="_A718oN49Eeau951k4I2Xmw"/>
+  <ArchiMate:ApplicationComponent xmi:id="_EZ1tgN49Eeau951k4I2Xmw" base_Component="_EZyDIN49Eeau951k4I2Xmw"/>
+  <ArchiMate:ApplicationComponent xmi:id="_rP3GcN4-Eeau951k4I2Xmw" base_Component="_rPzcEN4-Eeau951k4I2Xmw"/>
+  <ArchiMate:Plateau xmi:id="_TgpD0N5ZEeaMxY5qywk8Zw" base_Class="_TgerwN5ZEeaMxY5qywk8Zw"/>
+  <ArchiMate:Plateau xmi:id="_T0w5sN5ZEeaMxY5qywk8Zw" base_Class="_T0sBMN5ZEeaMxY5qywk8Zw"/>
+  <ArchiMate:Gap xmi:id="_U0KhMN5ZEeaMxY5qywk8Zw" base_Artifact="_U0G20N5ZEeaMxY5qywk8Zw"/>
+  <ArchiMate:Association xmi:id="_0UfUYN5ZEeaMxY5qywk8Zw" base_Association="_0UWxgN5ZEeaMxY5qywk8Zw"/>
+  <ArchiMate:Association xmi:id="_1vEcAN5ZEeaMxY5qywk8Zw" base_Association="_1vAxoN5ZEeaMxY5qywk8Zw"/>
+  <ArchiMate:Association xmi:id="_pyqqQN7vEeacBq_D3R6c_g" base_Association="_RoE0INcQEeaaWe_kLaIOnw"/>
+  <ArchiMate:Association xmi:id="_qFHwhOJCEeaaA6WG-Eegew" base_Association="_qFFUQOJCEeaaA6WG-Eegew"/>
+  <ArchiMate:Association xmi:id="_qddYAeJCEeaaA6WG-Eegew" base_Association="_qdaUsOJCEeaaA6WG-Eegew"/>
+  <ArchiMate:Association xmi:id="_q1LUceJCEeaaA6WG-Eegew" base_Association="_q1I4MOJCEeaaA6WG-Eegew"/>
+  <ArchiMate:Assignment xmi:id="_TJj-QOJDEeaaA6WG-Eegew" base_Dependency="_TJhiAOJDEeaaA6WG-Eegew"/>
+  <ArchiMate:Assignment xmi:id="_TipMoOJDEeaaA6WG-Eegew" base_Dependency="_Tin-gOJDEeaaA6WG-Eegew"/>
+  <ArchiMate:Assignment xmi:id="_T0kqIOJDEeaaA6WG-Eegew" base_Dependency="_T0jcAOJDEeaaA6WG-Eegew"/>
+  <ArchiMate:Assignment xmi:id="_UJa4wOJDEeaaA6WG-Eegew" base_Dependency="_UJZqoOJDEeaaA6WG-Eegew"/>
+  <ArchiMate:Assignment xmi:id="_ydTQgOJPEeaKs8UbEYP5OQ" base_Dependency="_ydQNMOJPEeaKs8UbEYP5OQ"/>
+</xmi:XMI>

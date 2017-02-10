@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<!-- Register the viewpoint to the default papyrus viewpoint -->
+	<extension point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+      <contribution
+            file="resources/diagrams.configuration"
+            original="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration">
+      </contribution>
+	</extension>
+  
+	<!-- Register the shape element type sets --> 
+	<extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="resources/diagramshapes.elementtypesconfigurations">
+      </elementTypeSet>
+	</extension>
+</plugin>

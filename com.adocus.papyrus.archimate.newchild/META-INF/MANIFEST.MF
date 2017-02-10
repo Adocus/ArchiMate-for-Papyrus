@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ArchiMate New child menu Extension
+Bundle-SymbolicName: com.adocus.papyrus.archimate.newchild;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.adocus.papyrus.archimate.newchild.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.papyrus.infra.types.core,
+ com.adocus.papyrus.archimate
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Adocus AB

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.adocus.papyrus.archimate.template
+Bundle-SymbolicName: com.adocus.papyrus.archimate.template;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.adocus.papyrus.archimate.template.Activator
+Bundle-Vendor: Adocus AB
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin> 
+   <extension point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+		<template di_file="models/archimate.model.structure.di" 
+   			file="models/archimate.model.structure.uml" 
+   			id="archimate.model.structure" 
+   			language="ArchiMate::Model"
+   			name="A structural base model for ArchiMate."
+   			notation_file="models/archimate.model.structure.notation">
+		</template>
+ 	</extension>
+
+   <extension point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+		<template di_file="models/archimate.model.example.archisurance.di" 
+   			file="models/archimate.model.example.archisurance.uml" 
+   			id="archimate.model.example.archisurance" 
+   			language="ArchiMate::Model"
+   			name="An example model based upon the ArchiSurance example from The Open Group."
+   			notation_file="models/archimate.model.example.archisurance.notation">
+		</template>
+ 	</extension>
+
+
+</plugin>

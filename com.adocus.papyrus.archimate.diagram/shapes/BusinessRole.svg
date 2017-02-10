@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="350"
+   id="svg6358"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="BusinessRole.svg">
+  <metadata
+     id="metadata6370">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6368" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview6366"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-51.5"
+     inkscape:cy="150"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6358" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g
+     id="g6360"
+     transform="matrix(0.55724749,0,0,0.55724749,-3.2428152,93.716337)"
+     style="stroke-width:17.6398983;stroke-miterlimit:4;stroke-dasharray:none">
+    <title
+       id="title6362">BusinessRole</title>
+    <path
+       d="m 448.17102,-55.614777 c 0,55.612564 -58.32138,100.687668 -130.26837,100.687668 m 130.26837,-100.687668 0,0 c 0,55.612564 -58.32138,100.687668 -130.26837,100.687668 -71.94693,0 -130.2685,-45.075104 -130.2685,-100.687668 m 0,0 0,0 c 0,-55.611813 58.32157,-100.690203 130.2685,-100.690203 71.94699,0 130.26837,45.07839 130.26837,100.690203 l 0,402.757357 c 0,55.60815 -58.32138,100.7016 -130.26837,100.7016 -71.94693,0 -130.2685,-45.09345 -130.2685,-100.7016 l 0,-402.757357 z"
+       id="papyrusPath"
+       transform="matrix(0,1,-1,0,463.672,-172.132)"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffb5;stroke:#000000;stroke-width:17.6398983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <ellipse
+       cx="519.25"
+       cy="146"
+       id="svg_1"
+       rx="100.75002"
+       ry="130.00002"
+       style="fill:#ffffb5;stroke:#000000;stroke-width:17.6398983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 22,113 35,-15 229,3 38,9 22,39 0,51 -17,33 -42,20 L 57,252 16,234 3,199 2,147 22,113"
+     id="PapyrusPath"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:label="#path5804" />
+</svg>

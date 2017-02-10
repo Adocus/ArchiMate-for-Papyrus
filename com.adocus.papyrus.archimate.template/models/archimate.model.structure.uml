@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArchiMate="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118 pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ">
+  <uml:Model xmi:id="_ThtyAMeIEeaN9_HPQjVUNQ" name="ArchiMate model">
+    <packagedElement xmi:type="uml:Package" xmi:id="_mDt4IMeJEea9LL_o5_XMiQ" name="Motivation">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dz0k4MeREea_cY4FLViU0g">
+        <body>In this diagram, motivation related elements shall be placed.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GSRqUMeKEeaeBIyFZEw96A" name="Business">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_LcjNYNcNEeaaWe_kLaIOnw">
+        <body>In this diagram, business related elements shall be placed.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RM6L4MeKEeaeBIyFZEw96A" name="Application">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_Nt9PUNcNEeaaWe_kLaIOnw">
+        <body>In this diagram, application (software) related elements shall be placed.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UFosgMeKEeaeBIyFZEw96A" name="Technology">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ReW-0NcNEeaaWe_kLaIOnw">
+        <body>In this diagram, technology related elements shall be placed.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_V5OxEMeKEeaeBIyFZEw96A" name="Implementation and Migration">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_TGuDwNcNEeaaWe_kLaIOnw">
+        <body>In this diagram, implementation and migration related elements shall be placed.</body>
+      </ownedComment>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VnzUwMeIEeaN9_HPQjVUNQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LbFqUO6yEeaiCMEx6O2-XA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LbFqUe6yEeaiCMEx6O2-XA" key="Version" value="1.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LbFqUu6yEeaiCMEx6O2-XA" key="Comment" value="First official version of the open-source ArchiMate profile for Papyrus."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LbFqU-6yEeaiCMEx6O2-XA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LbFqVO6yEeaiCMEx6O2-XA" key="Date" value="2017-02-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LbFqVe6yEeaiCMEx6O2-XA" key="Author" value="Adocus AB"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vn1J8MeIEeaN9_HPQjVUNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_XGdxQHbsEeSz4u81gQL_Gw"/>
+    </profileApplication>
+  </uml:Model>
+  <ArchiMate:MotivationExtension xmi:id="_mMWPsMeJEea9LL_o5_XMiQ" base_Package="_mDt4IMeJEea9LL_o5_XMiQ"/>
+  <ArchiMate:BusinessLayer xmi:id="_GaMQMMeKEeaeBIyFZEw96A" base_Package="_GSRqUMeKEeaeBIyFZEw96A"/>
+  <ArchiMate:ApplicationLayer xmi:id="_RNASgMeKEeaeBIyFZEw96A" base_Package="_RM6L4MeKEeaeBIyFZEw96A"/>
+  <ArchiMate:TechnologyLayer xmi:id="_UFvaMMeKEeaeBIyFZEw96A" base_Package="_UFosgMeKEeaeBIyFZEw96A"/>
+  <ArchiMate:ImplementationAndMigrationExtension xmi:id="_V5TCgMeKEeaeBIyFZEw96A" base_Package="_V5OxEMeKEeaeBIyFZEw96A"/>
+</xmi:XMI>

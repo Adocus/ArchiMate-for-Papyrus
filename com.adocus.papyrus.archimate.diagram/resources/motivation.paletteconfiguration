@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.7"
+    id="com.adocus.papyrus.archimate.palette.motivation"
+    label="ArchiMate Motivation Palette">
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.motivation.elements"
+      label="Motivation Elements"
+      description="ArchiMate Motivation Layer Elements">
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.stakeholder"
+        label="Stakeholder"
+        description="The role of an individual, team, or organization (or classes thereof) that represents their interests in, or concerns relative to, the outcome of the architecture.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/stakeholder-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Stakeholder_Shape"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.driver"
+        label="Driver"
+        description="Something that creates, motivates, and fuels the change in an organization.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/driver-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Driver_Shape"/>
+    </ownedConfigurations>
+        
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.assessment"
+        label="Assessment"
+        description="The outcome of some analysis of some driver.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/assessment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Assessment_Shape"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.goal"
+        label="Goal"
+        description="An end state that a stakeholder intends to achieve.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/goal-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Goal_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.requirement"
+        label="Requirement"
+        description="A statement of need that must be realized by a system.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/requirement-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Requirement_Shape"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.constraint"
+        label="Constraint"
+        description="A restriction on the way in which a system is realized.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/constraint-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Constraint_Shape"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.principle"
+        label="Principle"
+        description="A normative property of all systems in a given context, or the way in which they are realized.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/principle-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Principle_Shape"/>
+    </ownedConfigurations>
+    
+  </drawerConfigurations>
+  
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.motivation.relations"
+      label="Motivation Relations"
+      description="ArchiMate Motivation Layer Relations">
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.association"
+        label="Association"
+        description="Assocation models that some intention is related to the source of that intention."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/association-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Association_Edge"/>
+    </ownedConfigurations>      
+          
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.aggregation"
+        label="Aggregation"
+        description="Aggregation models that some intentional element is divided into multiple intentional elements."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/aggregation-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Aggregation_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.realization"
+        label="Realization"
+        description="Realization models that some end is realized by some means."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/realization-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Realization_Edge"/>
+    </ownedConfigurations>
+   
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.influence"
+        label="Influence"
+        description="Influence models that some motivational element has a positive or negative influence on the realization of another motivational element."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/influence-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Influence_Edge"/>
+    </ownedConfigurations>
+    
+   </drawerConfigurations>
+
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.common"
+      label="Common"
+      description="Common elements">
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.grouping"
+        label="Grouping"
+        description="Grouping of elements.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/grouping-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Grouping_Shape"/>
+    </ownedConfigurations>
+       
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.motivation.comment"
+        label="Comment"
+        description="Comments for elements.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/comment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Comment_Shape"/>
+    </ownedConfigurations>
+      
+   </drawerConfigurations>
+          
+  <requiredProfiles>ArchiMate</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

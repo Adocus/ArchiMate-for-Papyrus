@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="350"
+   id="svg8021"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="BusinessInterface.svg">
+  <metadata
+     id="metadata8032">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8030" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview8028"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="221.71206"
+     inkscape:cy="188.42271"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8021" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g
+     id="g8023"
+     transform="matrix(0.99847111,0,0,0.99847111,-145.50923,-99.579564)"
+     style="stroke-width:19.15423393;stroke-miterlimit:4;stroke-dasharray:none">
+    <title
+       id="title8025">Layer 1</title>
+    <circle
+       cx="321"
+       cy="275"
+       r="161.5"
+       id="svg_1"
+       style="fill:#ffffb5;stroke:#000000;stroke-width:19.15423393;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 49.129515,45.022542 80.581215,-35.8326423 100.60666,0.8522963 82.90139,54.425311 31.84352,76.442343 -1.30823,90.42396 -33.81469,47.65955 -44.15007,42.39732 -65.48371,23.62109 -76.34258,-6.89903 L 55.37441,308.52792 22.388368,271.89324 5.9738174,220.29138 4.8225078,127.846 43.216056,49.950435"
+     id="PapyrusPath"
+     inkscape:connector-curvature="0"
+     inkscape:label="#path6907"
+     sodipodi:nodetypes="ccccccccccccccc" />
+</svg>

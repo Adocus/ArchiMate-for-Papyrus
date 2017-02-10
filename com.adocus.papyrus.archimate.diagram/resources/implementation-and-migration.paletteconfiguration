@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.7"
+    id="com.adocus.papyrus.archimate.palette.technology"
+    label="ArchiMate Technology Palette">
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.implementation-and-migration.elements"
+      label="Implementation and Migration Elements"
+      description="ArchiMate Implementation and Migration Layer Elements">
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.workpackage"
+        label="Work package"
+        description="A series of actions designed to accomplish a unique goal within a specified time.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/work-package-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.WorkPackage_Shape"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.deliverable"
+        label="Deliverable"
+        description="A precisely-defined outcome of a work package.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/deliverable-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Deliverable_Shape"/>
+    </ownedConfigurations>                              
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.plateau"
+        label="Plateau"
+        description="A relatively stable state of the architecture that exists during a limited period of time.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/plateau-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Plateau_Shape"/>
+    </ownedConfigurations>                              
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.gap"
+        label="Gap"
+        description="An outcome of a gap analysis between two plateaus.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/gap-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Gap_Shape"/>
+    </ownedConfigurations> 
+    
+   </drawerConfigurations>
+  
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.implementatioandmigration.relations"
+      label="Implementation and Migration Relations"
+      description="ArchiMate Implementation and Migration Layer Relations">
+    
+        
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.association"
+        label="Association"
+        description="Association models a relationship between objects that is not covered by another, more specific relationship."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/association-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Association_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.access"
+        label="Access"
+        description="The access relationship models the access of behavioral concepts to business or data objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/access-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Access_Edge"/>
+    </ownedConfigurations>
+     
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.usedby"
+        label="Used by"
+        description="The used by relationship models the use of services by processes, functions, or interactions and the access to interfaces by roles, components, or collaborations."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/used-by-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.UsedBy_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.realization"
+        label="Realization"
+        description="The realization relationship links a logical entity with a more concrete entity that realizes it."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/realization-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Realization_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.assignment"
+        label="Assignment"
+        description="The assignment relationship links units of behavior with active elements (e.g., roles, components) that perform them, or roles with actors that fulfill them."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/assignment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Assignment_Edge"/>
+    </ownedConfigurations>
+            
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.aggregation"
+        label="Aggregation"
+        description="The aggregation relationship indicates that an object groups a number of other objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/aggregation-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Aggregation_Edge"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.composition"
+        label="Composition"
+        description="The composition relationship indicates that an object is composed of one or more other objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/composition-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Composition_Edge"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.flow"
+        label="Flow"
+        description="The flow relationship describes the exchange or transfer of, for example, information or value between processes, function, interactions, and events."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/flow-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Flow_Edge"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.triggering"
+        label="Triggering"
+        description="The triggering relationship describes the temporal or causal relationships between processes, functions, interactions, and events."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/triggering-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Triggering_Edge"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.junction"
+        label="Junction"
+        description="A junction is used to connect relationships of the same type.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/junction-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Junction_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.specialization"
+        label="Specialization"
+        description="The specialization relationship indicates that an object is a specialization of another object."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/specialization-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Specialization_Edge"/>
+    </ownedConfigurations>
+    
+   </drawerConfigurations>
+   
+   <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.common"
+      label="Common"
+      description="Common elements">
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.grouping"
+        label="Grouping"
+        description="The grouping relationship indicates that objects, of the same type or different types, belong together based on some common characteristic.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/grouping-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Grouping_Shape"/>
+    </ownedConfigurations>
+       
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.implementation-and-migration.comment"
+        label="Comment"
+        description="Comments for elements.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/comment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Comment_Shape"/>
+    </ownedConfigurations>
+         
+   </drawerConfigurations>
+   
+  <requiredProfiles>ArchiMate</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

@@ -1,0 +1,553 @@
+/*****************************************************************************
+ * Copyright (c) 2017 Adocus AB (www.adocus.com)
+ *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *   Adocus- Initial contributor
+ *
+ *****************************************************************************/
+ 
+ /* Default properties for all elements. Note that wildcard is not 
+wanted so that we can mix with external elements, hence the large set
+of ArchiMate stereotypes listed */
+[appliedStereotypes~=Goal],
+[appliedStereotypes~=Stakeholder],
+[appliedStereotypes~=Assessment],
+[appliedStereotypes~=Principle],
+[appliedStereotypes~=Requirement],
+[appliedStereotypes~=Constraint],
+[appliedStereotypes~=Value],
+[appliedStereotypes~=Product],
+[appliedStereotypes~=Meaning],
+[appliedStereotypes~=Contract],
+[appliedStereotypes~=BusinessObject],
+[appliedStereotypes~=Representation],
+[appliedStereotypes~=BusinessEvent],
+[appliedStereotypes~=BusinessInterface],
+[appliedStereotypes~=BusinessRole],
+[appliedStereotypes~=BusinessCollaboration],
+[appliedStereotypes~=Location],
+[appliedStereotypes~=BusinessActor],
+[appliedStereotypes~=BusinessProcess],
+[appliedStereotypes~=BusinessFunction],
+[appliedStereotypes~=BusinessInteraction],
+[appliedStereotypes~=BusinessService],
+[appliedStereotypes~=ApplicationComponent],
+[appliedStereotypes~=ApplicationCollaboration],
+[appliedStereotypes~=ApplicationInterface],
+[appliedStereotypes~=ApplicationFunction],
+[appliedStereotypes~=ApplicationInteraction],
+[appliedStereotypes~=ApplicationService],
+[appliedStereotypes~=DataObject],
+[appliedStereotypes~=Node],
+[appliedStereotypes~=Device],
+[appliedStereotypes~=Network],
+[appliedStereotypes~=CommunicationPath],
+[appliedStereotypes~=InfrastructureInterface],
+[appliedStereotypes~=SystemSoftware],
+[appliedStereotypes~=InfrastructureFunction],
+[appliedStereotypes~=InfrastructureService],
+[appliedStereotypes~=Artifact],
+[appliedStereotypes~=Plateau],
+[appliedStereotypes~=Deliverable],
+[appliedStereotypes~=WorkPackage],
+[appliedStereotypes~=Gap],
+[appliedStereotypes~=Junction],
+[appliedStereotypes~=Driver] { 
+	displayName:true;
+	displayIcon:true;
+	elementIcon:false;
+	isNameWrap: true;
+	bold:true;
+}
+
+/* Junctions shall always present themselves as symbols. */
+[appliedStereotypes~=Junction] {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Junction.svg';
+	transparency:100;
+	displayName:false;
+	followSVGSymbol:true;
+	displayIcon:false;
+}
+
+[appliedStereotypes~=Grouping] {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Grouping.svg';
+    displayName:false;
+	transparency:100;
+	followSVGSymbol:true;
+	displayIcon:false;
+	maintainSymbolRatio:false;
+}
+
+/* Hide stereotype label for all elements. */
+* > Label[type=StereotypeLabel]{
+    visible: false;
+}
+
+/* Make rounded corners for all connectors. */
+[appliedStereotypes~=Association],
+[appliedStereotypes~=Composition],
+[appliedStereotypes~=Realization],
+[appliedStereotypes~=Influence],
+[appliedStereotypes~=Specialization],
+[appliedStereotypes~=Assignment],
+[appliedStereotypes~=Access],
+[appliedStereotypes~=UsedBy],
+[appliedStereotypes~=Flow],
+[appliedStereotypes~=Triggering],
+[appliedStereotypes~=Derived],
+[appliedStereotypes~=Aggregation] {
+	routing:Rectilinear;
+	roundedBendpointsRadius:10;
+	/* closestDistance:true; */
+	/* smoothness:More; */
+}
+
+/* Hide compartment for all elements - just show the name and related icon. */
+Compartment {
+    visible:false;
+}
+
+/* Show symbol compartment so that text is "pushed" to upper boundary of element. */
+Compartment[kind="symbol"]  {
+    visible:true;
+}
+
+/* WA to hide actor symbol in the symbol compartment. */
+[appliedStereotypes~=BusinessActor] {
+    svgFile: '';
+}
+
+/* Apply background color for motivation elements. */
+[appliedStereotypes~=Stakeholder],
+[appliedStereotypes~=Driver],
+[appliedStereotypes~=Assessment] {
+	fillColor:#C390D4;
+}
+
+[appliedStereotypes~=Goal],
+[appliedStereotypes~=Requirement],
+[appliedStereotypes~=Principle],
+[appliedStereotypes~=Constraint] {
+	fillColor:#ACACE6;
+}
+
+/* Apply background color for business elements. */
+[appliedStereotypes~=BusinessActor],
+[appliedStereotypes~=BusinessRole],
+[appliedStereotypes~=BusinessCollaboration],
+[appliedStereotypes~=BusinessInterface],
+[appliedStereotypes~=Location],
+[appliedStereotypes~=BusinessProcess], 
+[appliedStereotypes~=BusinessFunction],
+[appliedStereotypes~=BusinessInteraction],
+[appliedStereotypes~=BusinessEvent],
+[appliedStereotypes~=BusinessService],
+[appliedStereotypes~=BusinessObject],
+[appliedStereotypes~=Representation],
+[appliedStereotypes~=Meaning], 
+[appliedStereotypes~=Value],
+[appliedStereotypes~=Product],
+[appliedStereotypes~=Contract] {
+	fillColor:#F3F76D;
+}
+
+[appliedStereotypes~=ApplicationComponent],
+[appliedStereotypes~=ApplicationFunction],
+[appliedStereotypes~=ApplicationInterface], 
+[appliedStereotypes~=ApplicationService],
+[appliedStereotypes~=ApplicationCollaboration],
+[appliedStereotypes~=DataObject],
+[appliedStereotypes~=ApplicationInteraction] {
+	fillColor:#65F7EE;
+}
+
+[appliedStereotypes~=SystemSoftware],
+[appliedStereotypes~=Node],
+[appliedStereotypes~=Network], 
+[appliedStereotypes~=InfrastructureFunction],
+[appliedStereotypes~=Device],
+[appliedStereotypes~=Artifact],
+[appliedStereotypes~=InfrastructureInterface],
+[appliedStereotypes~=InfrastructureService] {
+	fillColor:#92FC99;
+}
+
+[appliedStereotypes~=Plateau],
+[appliedStereotypes~=Gap] {
+	fillColor:#A7FCC0;
+}
+
+[appliedStereotypes~=Deliverable],
+[appliedStereotypes~=WorkPackage] {
+	fillColor:#FCA7AD;
+}
+
+/* Default settings for "Symbol" shapes. */
+*.Symbol {
+	transparency:100;
+	followSVGSymbol:true;
+	displayIcon:false;
+}
+
+/* Show SVG compartment for "Symbol" shapes. */
+/* *.Symbol > Compartment[kind="symbol"]  {
+    visible:true;
+}*/
+
+/* Turn on "floating label" for "Symbol" shapes. */
+*.Symbol > Label {
+	visible:true;
+}
+
+/* Turn off "stereotype label" for "Symbol" shapes. */
+*.Symbol > Label[type=StereotypeLabel] {
+	visible:false;
+}
+
+[appliedStereotypes~=Stakeholder].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Stakeholder.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+80;
+	displayName:false;
+}
+
+[appliedStereotypes~=Driver].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Driver.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Assessment].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Assessment.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+90;
+	displayName:false;
+}
+
+[appliedStereotypes~=Goal].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Goal.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Requirement].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Requirement.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=Principle].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Principle.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Constraint].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Constraint.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessActor].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessActor.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=BusinessRole].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessRole.svg';
+	floatingLabelOffsetWidth:+10;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessCollaboration].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessCollaboration.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=BusinessInterface].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessInterface.svg';
+	floatingLabelOffsetWidth:+0;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Location].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Location.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessProcess].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessProcess.svg';
+	floatingLabelOffsetWidth:+0;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessFunction].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessFunction.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=BusinessInteraction].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessInteraction.svg';
+	floatingLabelOffsetWidth:+0;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessEvent].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessEvent.svg';
+	floatingLabelOffsetWidth:+5;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=BusinessService].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessService.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=BusinessObject].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/BusinessObject.svg';
+	floatingLabelOffsetWidth:+5;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Representation].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Representation.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=Meaning].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Meaning.svg';
+	floatingLabelOffsetWidth:+23;
+    floatingLabelOffsetHeight:+80;
+	displayName:false;
+}
+
+[appliedStereotypes~=Value].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Value.svg';
+	floatingLabelOffsetWidth:+30;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=Product].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Product.svg';
+	floatingLabelOffsetWidth:+20;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=Contract].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Contract.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=ApplicationComponent].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationComponent.svg';
+	floatingLabelOffsetWidth:-10;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=ApplicationFunction].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationFunction.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=ApplicationInterface].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationInterface.svg';
+	floatingLabelOffsetWidth:-10;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=ApplicationService].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationService.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=ApplicationCollaboration].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationCollaboration.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=DataObject].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/DataObject.svg';
+	floatingLabelOffsetWidth:15;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=ApplicationInteraction].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationInteraction.svg';
+	floatingLabelOffsetWidth:-15;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=ApplicationComponent].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/ApplicationComponent.svg';
+	floatingLabelOffsetWidth:-10;
+    floatingLabelOffsetHeight:+75;
+	displayName:false;
+}
+
+[appliedStereotypes~=SystemSoftware].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/SystemSoftware.svg';
+	floatingLabelOffsetWidth:0;
+    floatingLabelOffsetHeight:+95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Node].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Node.svg';
+	floatingLabelOffsetWidth:30;
+    floatingLabelOffsetHeight:+98;
+	displayName:false;
+}
+
+[appliedStereotypes~=Network].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Network.svg';
+	floatingLabelOffsetWidth:25;
+    floatingLabelOffsetHeight:+65;
+	displayName:false;
+}
+
+[appliedStereotypes~=InfrastructureFunction].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/InfrastructureFunction.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=Device].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Device.svg';
+	floatingLabelOffsetWidth:30;
+    floatingLabelOffsetHeight:85;
+	displayName:false;
+}
+
+[appliedStereotypes~=Artifact].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Artifact.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=InfrastructureInterface].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/InfrastructureInterface.svg';
+	floatingLabelOffsetWidth:-15;
+    floatingLabelOffsetHeight:95;
+	displayName:false;
+}
+
+[appliedStereotypes~=Plateau].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Plateau.svg';
+	floatingLabelOffsetWidth:30;
+    floatingLabelOffsetHeight:98;
+	displayName:false;
+}
+
+[appliedStereotypes~=Gap].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Gap.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=Deliverable].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/Deliverable.svg';
+	displayName:true;
+}
+
+[appliedStereotypes~=WorkPackage].Symbol {
+    svgFile: 'platform:/plugin/com.adocus.papyrus.archimate.diagram/shapes/WorkPackage.svg';
+	floatingLabelOffsetWidth:10;
+    floatingLabelOffsetHeight:55;
+	displayName:false;
+}
+
+Association { /* , Generalization */
+	targetDecoration: none;
+}
+
+Association > Label:sourceMultiplicity {
+	visible:false;
+}
+
+Association > Label:targetMultiplicity {
+	visible:false;
+}
+
+Association > Label:sourceRole {
+	visible:false;
+}
+
+Association > Label:targetRole {
+	visible:false;
+}
+
+Association > Label:name {
+	visible:false;
+}
+
+Association > Label:stereotype {
+	visible:false;
+}
+
+Dependency > Label:name {
+	visible:false;
+}
+
+Dependency > Label:stereotype {
+	visible:false;
+}
+
+Realization > Label:name {
+	visible:false;
+}
+
+Realization > Label:stereotype {
+	visible:false;
+}
+
+Usage > Label:name {
+	visible:false;
+}
+
+Usage > Label:stereotype {
+	visible:false;
+}
+
+Generalization > Label:name {
+	visible:false;
+}
+
+Generalization > Label:stereotype {
+	visible:false;
+}
+
+/* Assignment shall have solid line and no target decoration */
+[appliedStereotypes~=Assignment] {
+	/* lineStyle: solid; */ /* Cannot be used - Papyrus gets negative length during image creation. Creates deviation from ArchiMate standard. */
+	targetDecoration: none;
+}
+
+[appliedStereotypes~=Triggering] {
+	/* lineStyle: solid; */ /* Cannot be used - Papyrus gets negative length during image creation. Creates deviation from ArchiMate standard. */
+}
+
+/* Used by is solid in the specification. */
+[appliedStereotypes~=UsedBy] {
+	/* lineStyle: solid; */ /* Cannot be used - Papyrus gets negative length during image creation. Creates deviation from ArchiMate standard. */
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="350"
+   id="svg7470"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ApplicationComponent.svg">
+  <metadata
+     id="metadata7483">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7481" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview7479"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="278.5"
+     inkscape:cy="132"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7470" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g
+     id="g7472"
+     transform="matrix(0.59963405,0,0,0.59963405,7.8257006,97.607708)"
+     style="stroke-width:16.42993164;stroke-miterlimit:4;stroke-dasharray:none">
+    <title
+       id="title7474">Layer 1</title>
+    <rect
+       x="69.5"
+       y="5"
+       width="482"
+       height="254"
+       id="svg_1"
+       style="fill:#b5ffff;stroke:#000000;stroke-width:16.42993164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       x="5"
+       y="155"
+       width="129"
+       height="54"
+       id="svg_4"
+       style="fill:#b5ffff;stroke:#000000;stroke-width:16.42993164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       x="5.5"
+       y="56"
+       width="129"
+       height="54"
+       id="svg_6"
+       style="fill:#b5ffff;stroke:#000000;stroke-width:16.42993164;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 3,89 343,0 1,177 L 4,263 3,89"
+     id="PapyrusPath"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc"
+     inkscape:label="#path4145" />
+</svg>

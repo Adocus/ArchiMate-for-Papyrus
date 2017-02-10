@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Introduction</title>
+</head>
+
+<body>
+<h1>Introduction</h1>
+
+<h2>About ArchiMate</h2>
+ArchiMate® is an enterprise architecture modeling notation from The Open Group®. Enterprise architecture is the top-most architecture as it documents the strategic development intent for whole organizations including all different kinds of sub architectures in that organization, for example business models, application models as well as infrastructure models. 
+
+The notation ArchiMate is closely related to the widely spread enterprise architecture framework TOGAF, also managed by The Open Group.
+
+<h2>ArchiMate and other types of models</h2>
+Having said that enterprise architecture is strategic in nature, this also means that it is “high level”, broad and less deep in nature. The depth/details need to be documented in other types of models and notations such as UML, BPMN etc.
+Since UML is the largest existing modeling notation there is, and strategic models should be detailed into other types of models/notations, there is a need to be able to make ArchiMate and UML co-exist and relate to each other. To do this, we need to be able to have ArchiMate and UML in the same modeling tools and that often means that we need to build other modeling notations upon UML which is so widely used in modeling tools today.
+<br><br>
+This ArchiMate extension builds upon UML and hence, can be incorporated and related to/from UML models seamlessly.  
+
+<h2>ArchiMate version information</h2>
+This Papyrus extension supports the ArchiMate 2.1 specification.
+
+<h2>Goals for the extension/initiative</h2>
+The goal with the mapping is to find the logically closest UML element and/or relation for any given ArchiMate element and/or relation. In other words, mapping shall not be done in a “one element fits all” fashion, for example map all ArchiMate elements to the same kind of UML classifier, for example class.
+
+<h2>Deviations from wanted UML mapping</h2>
+Exact mapping between ArchiMate elements and UML is extensively documented in a white paper (see references). However, some deviations have had to be made and the most notable are mentioned below:
+<br><br>
+<table border=1>
+<tr><td><b>ArchiMate element</b></td><td><b>Wanted UML element</b></td><td><b>Actual UML element</b></td><td><b>Comment</b></td></tr>
+<tr><td>Business process</td><td>Activity</td><td>Opaque behavior</td><td>Activities are not suitable for class diagrams, which is the diagram base used for the extension.</td></tr>
+<tr><td>Plateau</td><td>State</td><td>Class</td><td>A state had been more close to map to, but not suitable for class diagrams.</td></tr>
+<tr><td>Junction</td><td>Decision node</td><td>Opaque behavior</td><td>Decision nodes are not suitable for class diagrams.</td></tr>
+<tr><td>Grouping</td><td>Package</td><td>Component</td><td>Relating elements have completely different behavior in ArchiMate than in UML and is more of a graphical/diagram construct. UML packages are not suitable for grouping things together in one dimensional diagrams.</td></tr>
+</table>
+
+
+<h2>Deviations from ArchiMate specification</h2>
+ArchiMate symbols come in two flavors – “pure symbol presentation” or “rectangular presentation”. The pure symbol presentation presents the ArchiMate elements with a graphic on a transparent background and the rectangular presentation presents elements with a rectangular background with a small symbol up to the right. 
+
+Some of the rectangles in the specification have “cut corners” and some have not – they are just rectangles. The Papyrus add-in supports both pure symbol presentation and rectangular presentation. However, due to limitations in Papyrus, the cut corners are not offered.
+<br><br>
+Relations in ArchiMate are sometimes rendered solid and sometimes dotted or dashed. In cases where the base relation type (UML) is dotted/dashed and the ArchiMate relation type based upon this UML relation type is solid, the add-in does not set the presentation to solid because of an exception thrown by Papyrus when saving diagrams as images. The ArchiMate relations related to this are <i>triggering</i>, <i>used by</i> and <i>assignment</i>.
+<br><br>
+Often relations have end decorations (“arrow heads”), both in UML and in Archi-Mate. However, UML does not have small “filled” end decorations as ArchiMate have on some relations and there is no way to customize Papyrus to reflect this. Therefore, the following ArchiMate relations do not have the correct kind of end decoration: <i>access</i>, <i>flow</i>, <i>influence</i>.
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmi:id="_-5Z5sN90EeOzMY8AIRUe23" label="New ArchiMate" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/archimate-16.png">
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="Motivation">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Motivation extension" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/motivation-layer-model-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.MotivationExtension"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Stakeholder" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/stakeholder-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Stakeholder"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Driver" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/driver-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Driver"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Assessment" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/assessment-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Assessment"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Goal" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/goal-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Goal"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Requirement" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/requirement-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Requirement"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Constraint" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/constraint-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Constraint"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Principle" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/principle-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Principle"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" xmi:id="_tPDmAF3zEeSTX8qNvjL72Q" label="Business">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business layer" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-layer-model-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessLayer"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business actor" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-actor-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessActor"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business role" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-role-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessRole"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business collaboration" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-collaboration-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessCollaboration"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business interface" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-interface-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessInterface"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business location" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-location-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessLocation"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business process" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-process-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessProcess"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business function" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-function-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessFunction"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business interaction" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-interaction-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessInteraction"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business event" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-event-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessEvent"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business service" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-service-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessService"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business object" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-object-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessObject"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Business representation" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-representation-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.BusinessRepresentation"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Meaning" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/meaning-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Meaning"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Value" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/value-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Value"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Product" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/product-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Product"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Contract" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/contract-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Contract"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="Application">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application layer" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-layer-model-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationLayer"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application component" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-component-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationComponent"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application collaboration" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-collaboration-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationCollaboration"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="ApplicationInterface" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-interface-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationInterface"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application function" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-function-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationFunction"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application interaction" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-interaction-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationInteraction"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Application service" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-service-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ApplicationService"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Data object" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/data-object-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.DataObject"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="Technology">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Technology layer" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/technology-layer-model-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.TechnologyLayer"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Node" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/node-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Node"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Device" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/device-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Device"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Network" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/network-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Network"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Communication path" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/communication-path-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.CommunicationPath"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Infrastructure interface" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/infrastructure-interface-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.InfrastructureInterface"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="System software" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/system-software-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.SystemSoftware"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Infrastructure function" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/infrastructure-function-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.InfrastructureFunction"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Infrastructure service" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/infrastructure-service-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.InfrastructureService"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Artifact" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/artifact-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Artifact"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="Implementation and Migration">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Implementation and Migration extension" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/implementation-migration-layer-model-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.ImplementationAndMigrationExtension"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Work package" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/work-package-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.WorkPackage"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Deliverable" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/deliverable-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Deliverable"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Plateau" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/plateau-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Plateau"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Gap" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/gap-16.png" elementTypeIdRef="com.adocus.papyrus.archimate.Gap"/>
+  </menu>
+</ElementCreationMenuModel:Folder>

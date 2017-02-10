@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+ 
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://ARCHIMATE_PROFILES/"
+            target="platform:/plugin/com.adocus.papyrus.archimate/profiles/"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="ArchiMate Profile for Enterprise Architecture Modeling"
+            iconpath="icons/archimate-model-16.png"
+            name="ArchiMate"
+            path="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml"
+            provider="Adocus AB">
+      </profile>
+   </extension>
+
+  <extension
+        point="org.eclipse.uml2.uml.generated_package">
+        <profile 
+   			uri="http://www.adocus.com/archimate/archimateprofile" 
+   			location="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_hXPvQHceEeWsMNQdZlFxTA"/> 
+  </extension>
+  
+  <extension
+        id="elementtypes1"
+        point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="resources/modelelement.typesconfigurations">
+      </elementTypeSet>
+   </extension>
+    
+    <extension
+          id="elementtypes2"
+          name="Common element types configurations"
+          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="resources/common.typesconfigurations">
+      </elementTypeSet>
+   </extension>
+   
+
+
+	<extension 
+		id="ArchiMate::DSML" 
+		point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+		<diagramCategory
+			class="com.adocus.papyrus.archimate.CreateArchiMateModelCommand"
+			description="Diagram for ArchiMate"
+			icon="icons/archimate-32.png"
+			id="ArchiMate::Model"
+			label="ArchiMate® 2.1">
+		</diagramCategory>
+	</extension>
+
+</plugin>

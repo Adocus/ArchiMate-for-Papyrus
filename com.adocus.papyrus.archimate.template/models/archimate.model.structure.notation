@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_rBSlYMeJEea9LL_o5_XMiQ" type="PapyrusUMLClassDiagram" name="Motivation" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_eLjIYMeREea_cY4FLViU0g" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_eLk9kMeREea_cY4FLViU0g" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="archimate.model.structure.uml#_dz0k4MeREea_cY4FLViU0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eLjIYceREea_cY4FLViU0g" x="16" y="25"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_rBSlYceJEea9LL_o5_XMiQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_rBSlYseJEea9LL_o5_XMiQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_rBSlY8eJEea9LL_o5_XMiQ">
+      <owner xmi:type="uml:Package" href="archimate.model.structure.uml#_mDt4IMeJEea9LL_o5_XMiQ"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_5TF3UMIIEeaukO1aMjwmNA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="archimate.model.structure.uml#_mDt4IMeJEea9LL_o5_XMiQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_IbLQgMeKEeaeBIyFZEw96A" type="PapyrusUMLClassDiagram" name="Business" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Lcos8NcNEeaaWe_kLaIOnw" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_LcpUANcNEeaaWe_kLaIOnw" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="archimate.model.structure.uml#_LcjNYNcNEeaaWe_kLaIOnw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lcos8dcNEeaaWe_kLaIOnw" x="22" y="21"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_IbLQgceKEeaeBIyFZEw96A" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_IbLQgseKEeaeBIyFZEw96A"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_IbLQg8eKEeaeBIyFZEw96A">
+      <owner xmi:type="uml:Package" href="archimate.model.structure.uml#_GSRqUMeKEeaeBIyFZEw96A"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_GX4kQMLCEeal6va7DKOwrA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="archimate.model.structure.uml#_GSRqUMeKEeaeBIyFZEw96A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_S76EUMeKEeaeBIyFZEw96A" type="PapyrusUMLClassDiagram" name="Application" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Nt-dcNcNEeaaWe_kLaIOnw" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Nt-dctcNEeaaWe_kLaIOnw" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="archimate.model.structure.uml#_Nt9PUNcNEeaaWe_kLaIOnw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nt-dcdcNEeaaWe_kLaIOnw" x="17" y="19"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_S76EUceKEeaeBIyFZEw96A" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_S76EUseKEeaeBIyFZEw96A"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_S76EU8eKEeaeBIyFZEw96A">
+      <owner xmi:type="uml:Package" href="archimate.model.structure.uml#_RM6L4MeKEeaeBIyFZEw96A"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_sL6b0MNfEeal6va7DKOwrA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="archimate.model.structure.uml#_RM6L4MeKEeaeBIyFZEw96A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_F0a0MMeLEeaeBIyFZEw96A" type="PapyrusUMLClassDiagram" name="Technology elements" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ReYM8NcNEeaaWe_kLaIOnw" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ReYM8tcNEeaaWe_kLaIOnw" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="archimate.model.structure.uml#_ReW-0NcNEeaaWe_kLaIOnw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ReYM8dcNEeaaWe_kLaIOnw" x="24" y="21"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_F0a0MceLEeaeBIyFZEw96A" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_F0a0MseLEeaeBIyFZEw96A"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_F0a0M8eLEeaeBIyFZEw96A">
+      <owner xmi:type="uml:Package" href="archimate.model.structure.uml#_UFosgMeKEeaeBIyFZEw96A"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_Hi1FcMNnEeal6va7DKOwrA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="archimate.model.structure.uml#_UFosgMeKEeaeBIyFZEw96A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_IMk-YMeLEeaeBIyFZEw96A" type="PapyrusUMLClassDiagram" name="Implementation and Migration" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_TGvR4NcNEeaaWe_kLaIOnw" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_TGvR4tcNEeaaWe_kLaIOnw" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="archimate.model.structure.uml#_TGuDwNcNEeaaWe_kLaIOnw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGvR4dcNEeaaWe_kLaIOnw" x="24" y="25"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_IMk-YceLEeaeBIyFZEw96A" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_IMk-YseLEeaeBIyFZEw96A"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_IMk-Y8eLEeaeBIyFZEw96A">
+      <owner xmi:type="uml:Package" href="archimate.model.structure.uml#_V5OxEMeKEeaeBIyFZEw96A"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_XePVEMNuEeal6va7DKOwrA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="archimate.model.structure.uml#_V5OxEMeKEeaeBIyFZEw96A"/>
+  </notation:Diagram>
+</xmi:XMI>

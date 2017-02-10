@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Modeling and the palette</title>
+</head>
+
+<body>
+<h1>Modeling and the palette</h1>
+<h2>About ArchiMate layers and extensions</h2>
+In ArchiMate® 2.1 there are three main layers and two extensions. The three main layers are <i>Business layer</i>, <i>Application layer</i> and <i>Technology layer</i>. The extensions are <i>Motivation</i> and <i>Implementation and migration</i>. The five layers/extensions are listed below in a logical order, with the most strategic layer first and more realization related layers below in a logical, consecutive order.
+<ol>
+<li>Motivation</li>
+<li>Business</li>
+<li>Application</li>
+<li>Technology</li>
+<li>Implementation and migration</li>
+</ol>
+
+
+Packages for each above layer/extension can easily be created by right-clicking any package and choosing <b>New ArchiMate</b> &#8594; <b>[layer/extension area]</b> &#8594; <b>[layer/extension package]</b>.
+<br><br>
+<img src="../images/package_creation.png"> 
+<br><i>Diagram: Right click exposing all existing layer/extension areas</i>
+<br><br>
+<img src="../images/package_creation_motivation.png"> 
+<br><i>Diagram: Selection of the layer/extension package (Motivation in this case)</i>
+
+<h2>How to create ArchiMate diagrams</h2>
+There are five different diagrams in the extension, one for each layer/extension. Each such diagram has a customized palette/toolbar with elements and relations relevant for the current layer/extension/diagram.
+<br><br>
+To create a diagram, right click on any type of package in the <b>Model Explorer</b> and select <b>ArchiMate</b> &#8594; <b>ArchiMate [diagram type]</b>. The diagram will be created to the package that you right clicked.
+<br><br>
+<img src="../images/diagram_creation.png"> 
+<br><i>Diagram: Right click for diagram creation</i>
+
+<h2>Using the palette</h2>
+Each diagram has a unique, customized palette (toolbar) with all the relevant ArchiMate elements and relations needed for that particular diagram.
+
+Each element and relation has a floating text (tooltip) with excerpts from ArchiMate specification, so that you can get guidance based upon information straight from the source.
+<br><br>
+The elements and relations are groped into sub sections of the palette so that it is easy to distinguish between elements, relations and other things.
+Some elements re-occur between palettes and the <b>Common</b> sub section is the same for all palettes.
+
+<br><br>
+<img src="../images/palette.png"> 
+<br><i>Diagram: Palette example with tooltip from the actual ArchiMate specification</i>
+
+
+<h2>Switching between rectangular and symbol presentation</h2>
+The ArchiMate specification describes two ways of presenting elements - "pure symbol" or "rectangular". The pure symbol presentation simply shows the element on a transparent background and hence is "graphical" in nauture.
+The rectangular presentation presents a rectangular with the ArchiMate symbol to the upper right.
+The add-in supports both these presentation types and the default is the rectangular presentation type.
+
+<br><br>
+<img src="../images/motivation_rectangular.png"> 
+<br><i>Diagram: Motivation elements with rectangular presentation (default)</i>
+<br><br>
+You can mix rectangular and pure symbol shapes within the same diagram. To change the presentation type for an element, do the following:
+<ol>
+<li>Select the element</li>
+<li>Click on the <b>Style</b> property tab</li>
+<li>Click on the <b>plus sign</b></li>
+<li>Select <b>Symbol</b> in the drop down list</li>
+<li>Click OK</li>
+</ol>
+
+<img src="../images/symbol_presentation.png"> 
+<br><i>Diagram: Changing presentation type to symbol</i>
+
+<br><br>
+<img src="../images/motivation_symbol.png"> 
+<br><i>Diagram: Effect after changing one element to symbol presentation</i>
+
+<h2>About “flat modeling” compared to UML</h2>
+ArchiMate as modeling notation and concept is "flat" in comparison with UML for example. ArchiMate does not offer "packages" or other types of containers/containment of element.
+
+The closest concept to any type of containment in ArchiMate is the <b>Grouping</b> element. However, this element is not hierarchical by nature and does all the "containment" within a diagram, i.e. a <b>Grouping</b> element is within the diagram sized to fit other elements and all the "grouped" elements are placed within the boundary of this element. 
+<br><br>
+Note here that all elements added to the <b>Grouping</b>/diagram exist within the same "dimension", i.e. you can not "drill down" within a <b>Grouping</b> to find its content. The semantics for what is contained within the <b>Grouping</b> is all within the diagram. This is a difference compared to UML packages. 
+
+The above has had the implications that the <b>Grouping</b> element in the add-in is based upon the UML element type <b>Component</b> rather than <b>Package</b>, because UML packages do not easily lend themselves for graphical grouping of elements. UML packages want hierarchical information.
+
+<br><br>
+<b>Note:</b> Due to limitations in Papyrus, it is not possible to add elements directly from the palette to a <b>Grouping</b>. Instead, the user will have to add elements to the side of the <b>Grouping</b> element and after that "drag" it onto the <b>Grouping</b> element/area.
+
+<br><br>
+<img src="../images/grouped_elements.png"> 
+<br><i>Diagram: Example of grouped elements</i>
+
+<h2>Note about relations</h2>
+UML has a lot of decorations on relations, for example names, roles and multiplicity. All these default decorations in UML have been hidden in order to reflect and honor the ArchiMate specification as much as possible. Therefore, relations in the add-in all look quite "plain" in relation to UML. 
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_ko07IErbEeSdQKzSRatBjg">
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_xogdoErbEeSdQKzSRatBjg" name="Default Papyrus Viewpoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_5TF3UMIIEeaukO1aMjwmNA" name="ArchiMate Motivation Diagram" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/motivation-diagram-16.png" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/motivation.paletteconfiguration" customStyle="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagram.css">
+      <modelRules xmi:id="_5TF3UcIIEeaukO1aMjwmNA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_5TF3UsIIEeaukO1aMjwmNA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_5TF3U8IIEeaukO1aMjwmNA"/>
+      <paletteRules xmi:id="_5TF3VMIIEeaukO1aMjwmNA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_GX4kQMLCEeal6va7DKOwrA" name="ArchiMate Business Diagram" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/business-diagram-16.png" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/business.paletteconfiguration" customStyle="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagram.css">
+      <modelRules xmi:id="_GX4kQcLCEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_GX4kQsLCEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_GX4kQ8LCEeal6va7DKOwrA"/>
+      <paletteRules xmi:id="_GX4kRMLCEeal6va7DKOwrA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_sL6b0MNfEeal6va7DKOwrA" name="ArchiMate Application Diagram" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/application-diagram-16.png" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/application.paletteconfiguration" customStyle="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagram.css">
+      <modelRules xmi:id="_sL6b0cNfEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_sL6b0sNfEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_sL6b08NfEeal6va7DKOwrA"/>
+      <paletteRules xmi:id="_sL6b1MNfEeal6va7DKOwrA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_Hi1FcMNnEeal6va7DKOwrA" name="ArchiMate Technology Diagram" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/technology-diagram-16.png" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/technology.paletteconfiguration" customStyle="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagram.css">
+      <modelRules xmi:id="_Hi1FccNnEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_Hi1FcsNnEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_Hi1Fc8NnEeal6va7DKOwrA"/>
+      <paletteRules xmi:id="_Hi1FdMNnEeal6va7DKOwrA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_XePVEMNuEeal6va7DKOwrA" name="ArchiMate Implementation and Migration Diagram" icon="platform:/plugin/com.adocus.papyrus.archimate/icons/implementation-and-migration-diagram-16.png" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/implementation-and-migration.paletteconfiguration" customStyle="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagram.css">
+      <modelRules xmi:id="_XePVEcNuEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_XePVEsNuEeal6va7DKOwrA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_XePVE8NuEeal6va7DKOwrA"/>
+      <paletteRules xmi:id="_XePVFMNuEeal6va7DKOwrA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+  </viewpoints>
+  <defaultStakeholder href="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration#_7wLmkdxhEeOqHvRyiN87hA"/>
+  <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <categories xmi:id="_4DzMcHKlEeaVyqhV8kmQOA" name="ArchiMate"/>
+</configuration:PapyrusConfiguration>

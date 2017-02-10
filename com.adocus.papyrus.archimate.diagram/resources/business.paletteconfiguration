@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.7"
+    id="com.adocus.papyrus.archimate.palette.business"
+    label="ArchiMate Business Palette">
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.business.elements"
+      label="Business Elements"
+      description="ArchiMate Business Layer Elements">
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessactor"
+        label="Business actor"
+        description="An organizational entity that is capable of performing behavior via a role.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-actor-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessActor_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessrole"
+        label="Business role"
+        description="The responsibility for performing specific behavior, to which an actor can be assigned.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-role-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessRole_Shape"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businesscollaboration"
+        label="Business collaboration"
+        description="An aggregate of two or more business roles that work together to perform collective behavior.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-collaboration-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessCollaboration_Shape"/>
+    </ownedConfigurations>
+      
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessinterface"
+        label="Business interface"
+        description="A point of access where a business service is made available to the environment.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-interface-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessInterface_Shape"/>
+    </ownedConfigurations>
+       
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.location"
+        label="Location"
+        description="A conceptual point or extent in space.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/location-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Location_Shape"/>
+    </ownedConfigurations>
+        
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessprocess"
+        label="Business process"
+        description="A behavior element that groups behavior based on an ordering of activities. It is intended to produce a defined set of products or business services.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-process-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessProcess_Shape"/>
+    </ownedConfigurations>
+             
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessfunction"
+        label="Business function"
+        description="A behavior element that groups behavior based on a chosen set of criteria (typically required business resources and/or competences).">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-function-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessFunction_Shape"/>
+    </ownedConfigurations>
+ 
+     <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessinteraction"
+        label="Business interaction"
+        description="A behavior element that describes the behavior of a business collaboration.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-interaction-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessInteraction_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessevent"
+        label="Business event"
+        description="Something that happens (internally or externally) and influences behavior (business process, business function, business interaction).">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-event-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessEvent_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessservice"
+        label="Business service"
+        description="A service that fulfills a business need for a customer (internal or external to the organization).">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-service-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessService_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.businessobject"
+        label="Business object"
+        description="A passive element that has relevance from a business perspective.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/business-object-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.BusinessObject_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.representation"
+        label="Representation"
+        description="A perceptible form of the information carried by a business object.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/representation-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Representation_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.meaning"
+        label="Meaning"
+        description="The knowledge or expertise present in a business object or its representation, given a particular context.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/meaning-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Meaning_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.value"
+        label="Value"
+        description="The relative worth, utility, or importance of a business service or product.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/value-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Value_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.product"
+        label="Product"
+        description="A coherent collection of services, accompanied by a contract/set of agreements, which is offered as a whole to (internal or external) customers.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/product-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Product_Shape"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.contract"
+        label="Contract"
+        description="A formal or informal specification of agreement that specifies the rights and obligations associated with a product.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/contract-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Contract_Shape"/>
+    </ownedConfigurations>
+    
+  </drawerConfigurations>
+
+  <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.business.relations"
+      label="Business Relations"
+      description="ArchiMate Business Layer Relations">
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.association"
+        label="Association"
+        description="Association models a relationship between objects that is not covered by another, more specific relationship."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/association-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Association_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.access"
+        label="Access"
+        description="The access relationship models the access of behavioral concepts to business or data objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/access-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Access_Edge"/>
+    </ownedConfigurations>
+     
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.usedby"
+        label="Used by"
+        description="The used by relationship models the use of services by processes, functions, or interactions and the access to interfaces by roles, components, or collaborations."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/used-by-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.UsedBy_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.realization"
+        label="Realization"
+        description="The realization relationship links a logical entity with a more concrete entity that realizes it."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/realization-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Realization_Edge"/>
+    </ownedConfigurations>
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.assignment"
+        label="Assignment"
+        description="The assignment relationship links units of behavior with active elements (e.g., roles, components) that perform them, or roles with actors that fulfill them."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/assignment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Assignment_Edge"/>
+    </ownedConfigurations>
+            
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.aggregation"
+        label="Aggregation"
+        description="The aggregation relationship indicates that an object groups a number of other objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/aggregation-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Aggregation_Edge"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.composition"
+        label="Composition"
+        description="The composition relationship indicates that an object is composed of one or more other objects."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/composition-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Composition_Edge"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.flow"
+        label="Flow"
+        description="The flow relationship describes the exchange or transfer of, for example, information or value between processes, function, interactions, and events."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/flow-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Flow_Edge"/>
+    </ownedConfigurations>
+ 
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.triggering"
+        label="Triggering"
+        description="The triggering relationship describes the temporal or causal relationships between processes, functions, interactions, and events."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/triggering-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Triggering_Edge"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.junction"
+        label="Junction"
+        description="A junction is used to connect relationships of the same type.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/junction-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Junction_Shape"/>
+    </ownedConfigurations>
+
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.specialization"
+        label="Specialization"
+        description="The specialization relationship indicates that an object is a specialization of another object."
+        kind="ConnectionTool">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/specialization-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Specialization_Edge"/>
+    </ownedConfigurations>
+
+   </drawerConfigurations>
+   
+   <drawerConfigurations
+      id="com.adocus.papyrus.archimate.drawer.common"
+      label="Common"
+      description="Common elements">
+    
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.grouping"
+        label="Grouping"
+        description="The grouping relationship indicates that objects, of the same type or different types, belong together based on some common characteristic.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/grouping-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Grouping_Shape"/>
+    </ownedConfigurations>
+       
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="com.adocus.papyrus.archimate.business.comment"
+        label="Comment"
+        description="Comments for elements.">
+      <icon
+          pluginID="com.adocus.papyrus.archimate"
+          iconPath="icons/comment-16.png"/>
+      <elementDescriptors elementTypeId="com.adocus.papyrus.archimate.profile.Comment_Shape"/>
+    </ownedConfigurations>
+       
+   </drawerConfigurations>
+   
+  <requiredProfiles>ArchiMate</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>
