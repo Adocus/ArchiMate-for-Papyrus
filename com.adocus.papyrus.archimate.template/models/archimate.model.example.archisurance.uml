@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArchiMate="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118 pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArchiMate="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ArchiMate/_1ZLSUO6xEeajwPV9beFHeQ/118 ../../com.adocus.papyrus.archimate/profiles/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ">
   <uml:Model xmi:id="_1reRQNcNEeaaWe_kLaIOnw" name="ArchiSurance model">
     <ownedComment xmi:type="uml:Comment" xmi:id="_R8yAwOOxEeaSl-D03UuWzw" annotatedElement="_1reRQNcNEeaaWe_kLaIOnw">
       <body>This example model is based upon the ArchiSurance example from The Open Group (http://opengroup.org/), version from 2012-2014.&#xD;
@@ -209,6 +209,7 @@ Changes:&#xD;
         <packagedElement xmi:type="uml:Class" xmi:id="_AVqK4NfxEeaVvvvmUXbVKQ" name="Customer"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Cp43UNfxEeaVvvvmUXbVKQ" name="Insurance File">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_cc3wYNf1Eea674x1mBDWlA" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" association="_ccze8Nf1Eea674x1mBDWlA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_nmdT8df1Eea674x1mBDWlA" name="insurance policy" type="_retUsNfxEeaVvvvmUXbVKQ" association="_nmbewNf1Eea674x1mBDWlA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_mHszwNfxEeaVvvvmUXbVKQ" name="Insurance request"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_retUsNfxEeaVvvvmUXbVKQ" name="Insurance Policy"/>
@@ -374,43 +375,37 @@ Changes:&#xD;
         <packagedElement xmi:type="uml:Component" xmi:id="_EZyDIN49Eeau951k4I2Xmw" name="Shared Service Center"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_lCvaANf1Eea674x1mBDWlA" name="Data model">
-        <packagedElement xmi:type="uml:Class" xmi:id="_nma3sNf1Eea674x1mBDWlA" name="Insurance Policy"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_nmcF0Nf1Eea674x1mBDWlA" name="Claim"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_nmcF0df1Eea674x1mBDWlA" name="Customer"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_nmdT8Nf1Eea674x1mBDWlA" name="Insurance File">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_nmdT8df1Eea674x1mBDWlA" name="insurance policy" type="_nma3sNf1Eea674x1mBDWlA" association="_nmbewNf1Eea674x1mBDWlA"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_qewWwNf1Eea674x1mBDWlA" name="Claim data"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_ry5fMNf1Eea674x1mBDWlA" name="Policy Data"/>
         <packagedElement xmi:type="uml:Collaboration" xmi:id="_9XxEINf1Eea674x1mBDWlA" name="Customer Data Access"/>
         <packagedElement xmi:type="uml:Collaboration" xmi:id="_AXoukNf2Eea674x1mBDWlA" name="Policy Data Management"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Fq2UoNf2Eea674x1mBDWlA" name="Customer Data"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_vLrOINyxEeaLYoMRKMw9dQ" name="Relations">
-          <packagedElement xmi:type="uml:Realization" xmi:id="_JgmeMNf2Eea674x1mBDWlA" name="Realization1" client="_Fq2UoNf2Eea674x1mBDWlA" supplier="_nmcF0df1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_JgmeMNf2Eea674x1mBDWlA" name="Realization1" client="_Fq2UoNf2Eea674x1mBDWlA" supplier="_AVqK4NfxEeaVvvvmUXbVKQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_OwTdQNf2Eea674x1mBDWlA" name="Access1" client="_9XxEINf1Eea674x1mBDWlA" supplier="_Fq2UoNf2Eea674x1mBDWlA"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_PusYINf2Eea674x1mBDWlA" name="Access2" client="_AXoukNf2Eea674x1mBDWlA" supplier="_ry5fMNf1Eea674x1mBDWlA"/>
-          <packagedElement xmi:type="uml:Realization" xmi:id="_SA8HkNf2Eea674x1mBDWlA" name="Realization2" client="_qewWwNf1Eea674x1mBDWlA" supplier="_nmcF0Nf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_SA8HkNf2Eea674x1mBDWlA" name="Realization2" client="_qewWwNf1Eea674x1mBDWlA" supplier="_uQA-sNfxEeaVvvvmUXbVKQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_Ve4OENf2Eea674x1mBDWlA" name="Access3" client="_AXoukNf2Eea674x1mBDWlA" supplier="_qewWwNf1Eea674x1mBDWlA"/>
-          <packagedElement xmi:type="uml:Realization" xmi:id="_bfaNINf2Eea674x1mBDWlA" name="Realization3" client="_ry5fMNf1Eea674x1mBDWlA" supplier="_nma3sNf1Eea674x1mBDWlA"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_bfaNINf2Eea674x1mBDWlA" name="Realization3" client="_ry5fMNf1Eea674x1mBDWlA" supplier="_retUsNfxEeaVvvvmUXbVKQ"/>
           <packagedElement xmi:type="uml:Association" xmi:id="_nmcs4Nf1Eea674x1mBDWlA" name="Aggregation2" memberEnd="_nmcs5Nf1Eea674x1mBDWlA _nmcs49f1Eea674x1mBDWlA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmcs4df1Eea674x1mBDWlA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmcs4tf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
             </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs49f1Eea674x1mBDWlA" name="customer" type="_nmcF0df1Eea674x1mBDWlA" association="_nmcs4Nf1Eea674x1mBDWlA"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs5Nf1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" aggregation="shared" association="_nmcs4Nf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs49f1Eea674x1mBDWlA" name="customer" type="_AVqK4NfxEeaVvvvmUXbVKQ" association="_nmcs4Nf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmcs5Nf1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" aggregation="shared" association="_nmcs4Nf1Eea674x1mBDWlA"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_nmd7ANf1Eea674x1mBDWlA" name="Composition4" memberEnd="_nmd7BNf1Eea674x1mBDWlA _nmd7A9f1Eea674x1mBDWlA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmd7Adf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmd7Atf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
             </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7A9f1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" association="_nmd7ANf1Eea674x1mBDWlA"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7BNf1Eea674x1mBDWlA" name="claim" type="_nmcF0Nf1Eea674x1mBDWlA" aggregation="composite" association="_nmd7ANf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7A9f1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_nmd7ANf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmd7BNf1Eea674x1mBDWlA" name="claim" type="_uQA-sNfxEeaVvvvmUXbVKQ" aggregation="composite" association="_nmd7ANf1Eea674x1mBDWlA"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_nmbewNf1Eea674x1mBDWlA" name="Association3" memberEnd="_nmdT8df1Eea674x1mBDWlA _nmbew9f1Eea674x1mBDWlA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmbewdf1Eea674x1mBDWlA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmbewtf1Eea674x1mBDWlA" key="nature" value="UML_Nature"/>
             </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_nmbew9f1Eea674x1mBDWlA" name="insurance file" type="_nmdT8Nf1Eea674x1mBDWlA" association="_nmbewNf1Eea674x1mBDWlA"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_nmbew9f1Eea674x1mBDWlA" name="insurance file" type="_Cp43UNfxEeaVvvvmUXbVKQ" association="_nmbewNf1Eea674x1mBDWlA"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Component" xmi:id="_rPzcEN4-Eeau951k4I2Xmw" name="Home &amp; Away Policy Administration"/>
@@ -498,18 +493,11 @@ Changes:&#xD;
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WcMVUNcOEeaaWe_kLaIOnw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NFsyAO6yEeaiCMEx6O2-XA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyAe6yEeaiCMEx6O2-XA" key="Version" value="1.0.0"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyAu6yEeaiCMEx6O2-XA" key="Comment" value="First official version of the open-source ArchiMate profile for Papyrus."/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyA-6yEeaiCMEx6O2-XA" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyBO6yEeaiCMEx6O2-XA" key="Date" value="2017-02-09"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NFsyBe6yEeaiCMEx6O2-XA" key="Author" value="Adocus AB"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HX0ZoBX4EeegJv81OEP6nw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HX3c8BX4EeegJv81OEP6nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../com.adocus.papyrus.archimate/profiles/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WcR04NcOEeaaWe_kLaIOnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_1ZRY8O6xEeajwPV9beFHeQ"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_XGdxQHbsEeSz4u81gQL_Gw"/>
+      <appliedProfile xmi:type="uml:Profile" href="../../com.adocus.papyrus.archimate/profiles/ArchiMate.profile.uml#_XGdxQHbsEeSz4u81gQL_Gw"/>
     </profileApplication>
   </uml:Model>
   <ArchiMate:MotivationExtension xmi:id="_YcMeMNcOEeaaWe_kLaIOnw" base_Package="_YcIz0NcOEeaaWe_kLaIOnw"/>
@@ -640,13 +628,9 @@ Changes:&#xD;
   <ArchiMate:Aggregation xmi:id="_UWuvsNf1Eea674x1mBDWlA" base_Association="_UPmM8Nf1Eea674x1mBDWlA"/>
   <ArchiMate:Composition xmi:id="_Z7lfYNf1Eea674x1mBDWlA" base_Association="_Z7cVcNf1Eea674x1mBDWlA"/>
   <ArchiMate:Association xmi:id="_cc4XcNf1Eea674x1mBDWlA" base_Association="_ccze8Nf1Eea674x1mBDWlA"/>
-  <ArchiMate:BusinessObject xmi:id="_nmg-UNf1Eea674x1mBDWlA" base_Class="_nmdT8Nf1Eea674x1mBDWlA"/>
-  <ArchiMate:BusinessObject xmi:id="_nmiMcNf1Eea674x1mBDWlA" base_Class="_nma3sNf1Eea674x1mBDWlA"/>
-  <ArchiMate:BusinessObject xmi:id="_nmizgNf1Eea674x1mBDWlA" base_Class="_nmcF0df1Eea674x1mBDWlA"/>
   <ArchiMate:Aggregation xmi:id="_nmjakNf1Eea674x1mBDWlA" base_Association="_nmcs4Nf1Eea674x1mBDWlA"/>
   <ArchiMate:Composition xmi:id="_nmkBoNf1Eea674x1mBDWlA" base_Association="_nmd7ANf1Eea674x1mBDWlA"/>
   <ArchiMate:Association xmi:id="_nmkosNf1Eea674x1mBDWlA" base_Association="_nmbewNf1Eea674x1mBDWlA"/>
-  <ArchiMate:BusinessObject xmi:id="_nmlPwNf1Eea674x1mBDWlA" base_Class="_nmcF0Nf1Eea674x1mBDWlA"/>
   <ArchiMate:DataObject xmi:id="_qe0BINf1Eea674x1mBDWlA" base_Class="_qewWwNf1Eea674x1mBDWlA"/>
   <ArchiMate:DataObject xmi:id="_ry9JkNf1Eea674x1mBDWlA" base_Class="_ry5fMNf1Eea674x1mBDWlA"/>
   <ArchiMate:ApplicationFunction xmi:id="_9X0HcNf1Eea674x1mBDWlA" base_Collaboration="_9XxEINf1Eea674x1mBDWlA"/>

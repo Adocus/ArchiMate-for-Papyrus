@@ -6477,118 +6477,6 @@
       <element xmi:type="uml:Component" href="archimate.model.example.archisurance.uml#_rPzcEN4-Eeau951k4I2Xmw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rP4Ukd4-Eeau951k4I2Xmw" x="189" y="257" width="288" height="159"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_nmfJINf1Eea674x1mBDWlA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfJIdf1Eea674x1mBDWlA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfJItf1Eea674x1mBDWlA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nmfJI9f1Eea674x1mBDWlA" x="13" y="97"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJJNf1Eea674x1mBDWlA" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJJdf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJJtf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJJ9f1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJKNf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJKdf1Eea674x1mBDWlA" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJKtf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJK9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJLNf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJLdf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJLtf1Eea674x1mBDWlA" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJL9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJMNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJMdf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJMtf1Eea674x1mBDWlA"/>
-      </children>
-      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmdT8Nf1Eea674x1mBDWlA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJQdf1Eea674x1mBDWlA" x="317" y="125" height="77"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_nmfJQtf1Eea674x1mBDWlA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfJQ9f1Eea674x1mBDWlA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfJRNf1Eea674x1mBDWlA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nmfJRdf1Eea674x1mBDWlA" x="22" y="72"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJRtf1Eea674x1mBDWlA" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJR9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJSNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJSdf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJStf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJS9f1Eea674x1mBDWlA" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJTNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJTdf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJTtf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJT9f1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfJUNf1Eea674x1mBDWlA" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfJUdf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfJUtf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfJU9f1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJVNf1Eea674x1mBDWlA"/>
-      </children>
-      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0df1Eea674x1mBDWlA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfJY9f1Eea674x1mBDWlA" x="45" y="125" height="77"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_nmfwRNf1Eea674x1mBDWlA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfwRdf1Eea674x1mBDWlA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfwRtf1Eea674x1mBDWlA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nmfwR9f1Eea674x1mBDWlA" x="37" y="74"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwSNf1Eea674x1mBDWlA" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwSdf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwStf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwS9f1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwTNf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwTdf1Eea674x1mBDWlA" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwTtf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwT9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwUNf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwUdf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwUtf1Eea674x1mBDWlA" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwU9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwVNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwVdf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwVtf1Eea674x1mBDWlA"/>
-      </children>
-      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0Nf1Eea674x1mBDWlA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwZdf1Eea674x1mBDWlA" x="529" y="125" height="77"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_nmfwZtf1Eea674x1mBDWlA" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfwZ9f1Eea674x1mBDWlA" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_nmfwaNf1Eea674x1mBDWlA" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_nmfwadf1Eea674x1mBDWlA" x="9" y="98"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwatf1Eea674x1mBDWlA" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwa9f1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwbNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwbdf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwbtf1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwb9f1Eea674x1mBDWlA" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwcNf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwcdf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwctf1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwc9f1Eea674x1mBDWlA"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_nmfwdNf1Eea674x1mBDWlA" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_nmfwddf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_nmfwdtf1Eea674x1mBDWlA"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_nmfwd9f1Eea674x1mBDWlA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfweNf1Eea674x1mBDWlA"/>
-      </children>
-      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nma3sNf1Eea674x1mBDWlA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmfwh9f1Eea674x1mBDWlA" x="664" y="29" width="100" height="77"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_nmyEENf1Eea674x1mBDWlA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_nmyEEdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmyEE9f1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmdT8Nf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmyEEtf1Eea674x1mBDWlA" x="517" y="137"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_nm1HYNf1Eea674x1mBDWlA" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_nm1HYdf1Eea674x1mBDWlA"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nm1HY9f1Eea674x1mBDWlA" name="BASE_ELEMENT">
@@ -6605,14 +6493,6 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nm1udtf1Eea674x1mBDWlA" x="517" y="37"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_nnLFoNf1Eea674x1mBDWlA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_nnLFodf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nnLssNf1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0df1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnLFotf1Eea674x1mBDWlA" x="323" y="137"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_nnNh4Nf1Eea674x1mBDWlA" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_nnNh4df1Eea674x1mBDWlA"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nnNh49f1Eea674x1mBDWlA" name="BASE_ELEMENT">
@@ -6620,22 +6500,6 @@
       </styles>
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnNh4tf1Eea674x1mBDWlA" x="323" y="37"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_nno_sNf1Eea674x1mBDWlA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_nno_sdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nno_s9f1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0Nf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nno_stf1Eea674x1mBDWlA" x="712" y="136"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_noCBQNf1Eea674x1mBDWlA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_noCBQdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_noCBQ9f1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nma3sNf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_noCBQtf1Eea674x1mBDWlA" x="843" y="29"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_qe3rgNf1Eea674x1mBDWlA" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_qe3rgtf1Eea674x1mBDWlA" type="Class_NameLabel"/>
@@ -6821,6 +6685,142 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rP-bMt4-Eeau951k4I2Xmw" x="200"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_oAS28BYUEeeY99YLVUDL7w" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oAXIYBYUEeeY99YLVUDL7w" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oAXIYRYUEeeY99YLVUDL7w" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oAXvcBYUEeeY99YLVUDL7w" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oAXvcRYUEeeY99YLVUDL7w" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oAYWgBYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oAYWgRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oAYWghYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAYWgxYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oAYWhBYUEeeY99YLVUDL7w" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oAYWhRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oAYWhhYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oAYWhxYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAYWiBYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oAYWiRYUEeeY99YLVUDL7w" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oAYWihYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oAYWixYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oAYWjBYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAYWjRYUEeeY99YLVUDL7w"/>
+      </children>
+      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_AVqK4NfxEeaVvvvmUXbVKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAS28RYUEeeY99YLVUDL7w" x="66" y="121" width="147" height="83"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oAo1MBYUEeeY99YLVUDL7w" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oAo1MRYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oAo1MxYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_AVqK4NfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAo1MhYUEeeY99YLVUDL7w" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ue-xoBYUEeeY99YLVUDL7w" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ue_YsBYUEeeY99YLVUDL7w" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ue_YsRYUEeeY99YLVUDL7w" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ue_YshYUEeeY99YLVUDL7w" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ue__wBYUEeeY99YLVUDL7w" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ue__wRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ue__whYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ue__wxYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ue__xBYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ue__xRYUEeeY99YLVUDL7w" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ue__xhYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ue__xxYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ue__yBYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ue__yRYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ue__yhYUEeeY99YLVUDL7w" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ue__yxYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ue__zBYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ue__zRYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ue__zhYUEeeY99YLVUDL7w"/>
+      </children>
+      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_Cp43UNfxEeaVvvvmUXbVKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ue-xoRYUEeeY99YLVUDL7w" x="261" y="136" width="187" height="58"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ufJwwxYUEeeY99YLVUDL7w" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ufJwxBYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ufJwxhYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_Cp43UNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufJwxRYUEeeY99YLVUDL7w" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_4ltKABYUEeeY99YLVUDL7w" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4ltxEBYUEeeY99YLVUDL7w" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4ltxERYUEeeY99YLVUDL7w" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4ltxEhYUEeeY99YLVUDL7w" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4ltxExYUEeeY99YLVUDL7w" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4ltxFBYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4ltxFRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4ltxFhYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ltxFxYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4ltxGBYUEeeY99YLVUDL7w" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4ltxGRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4ltxGhYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4ltxGxYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ltxHBYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4ltxHRYUEeeY99YLVUDL7w" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4ltxHhYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_4ltxHxYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_4ltxIBYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ltxIRYUEeeY99YLVUDL7w"/>
+      </children>
+      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_uQA-sNfxEeaVvvvmUXbVKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ltKARYUEeeY99YLVUDL7w" x="528" y="131" width="113" height="70"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_4l2T8BYUEeeY99YLVUDL7w" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4l2T8RYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4l2T8xYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_uQA-sNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4l2T8hYUEeeY99YLVUDL7w" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__NWzcBYUEeeY99YLVUDL7w" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="__NWzchYUEeeY99YLVUDL7w" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="__NXagBYUEeeY99YLVUDL7w" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__NXagRYUEeeY99YLVUDL7w" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__NXaghYUEeeY99YLVUDL7w" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__NXagxYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__NXahBYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__NXahRYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NXahhYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__NXahxYUEeeY99YLVUDL7w" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__NXaiBYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__NXaiRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__NXaihYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NXaixYUEeeY99YLVUDL7w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__NXajBYUEeeY99YLVUDL7w" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__NXajRYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__NXajhYUEeeY99YLVUDL7w"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__NXajxYUEeeY99YLVUDL7w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NXakBYUEeeY99YLVUDL7w"/>
+      </children>
+      <element xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_retUsNfxEeaVvvvmUXbVKQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NWzcRYUEeeY99YLVUDL7w" x="662" y="43" width="111" height="72"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__NfWUBYUEeeY99YLVUDL7w" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__NfWURYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="__NfWUxYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_retUsNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NfWUhYUEeeY99YLVUDL7w" x="200"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_m4Bgodf1Eea674x1mBDWlA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_m4Bgotf1Eea674x1mBDWlA"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_m4Bgo9f1Eea674x1mBDWlA">
@@ -6828,7 +6828,7 @@
       <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/com.adocus.papyrus.archimate.diagram/resources/diagrams.configuration#_sL6b0MNfEeal6va7DKOwrA"/>
     </styles>
     <element xmi:type="uml:Package" href="archimate.model.example.archisurance.uml#_lCvaANf1Eea674x1mBDWlA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_nmeiENf1Eea674x1mBDWlA" type="Association_Edge" source="_nmfJQtf1Eea674x1mBDWlA" target="_nmfJINf1Eea674x1mBDWlA">
+    <edges xmi:type="notation:Connector" xmi:id="_nmeiENf1Eea674x1mBDWlA" type="Association_Edge" source="_oAS28BYUEeeY99YLVUDL7w" target="_ue-xoBYUEeeY99YLVUDL7w">
       <children xmi:type="notation:DecorationNode" xmi:id="_nmeiEdf1Eea674x1mBDWlA" type="Association_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_J0HQENf2Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_nmeiEtf1Eea674x1mBDWlA" y="-20"/>
@@ -6855,11 +6855,11 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_nmeiHdf1Eea674x1mBDWlA"/>
       <element xmi:type="uml:Association" href="archimate.model.example.archisurance.uml#_nmcs4Nf1Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmeiIdf1Eea674x1mBDWlA" points="[145, 161, -643984, -643984]$[317, 161, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmeiItf1Eea674x1mBDWlA" id="(1.0,0.48)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmeiI9f1Eea674x1mBDWlA" id="(0.0,0.4675324675324675)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmeiIdf1Eea674x1mBDWlA" points="[213, 167, -643984, -643984]$[237, 167, -643984, -643984]$[237, 170, -643984, -643984]$[261, 170, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmeiItf1Eea674x1mBDWlA" id="(1.0,0.5542168674698795)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmeiI9f1Eea674x1mBDWlA" id="(0.0,0.5862068965517241)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nmfwMNf1Eea674x1mBDWlA" type="Association_Edge" source="_nmfJINf1Eea674x1mBDWlA" target="_nmfwRNf1Eea674x1mBDWlA">
+    <edges xmi:type="notation:Connector" xmi:id="_nmfwMNf1Eea674x1mBDWlA" type="Association_Edge" source="_ue-xoBYUEeeY99YLVUDL7w" target="_4ltKABYUEeeY99YLVUDL7w">
       <children xmi:type="notation:DecorationNode" xmi:id="_nmfwMdf1Eea674x1mBDWlA" type="Association_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_S0BxYNf2Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_nmfwMtf1Eea674x1mBDWlA" y="-20"/>
@@ -6886,11 +6886,11 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_nmfwPdf1Eea674x1mBDWlA"/>
       <element xmi:type="uml:Association" href="archimate.model.example.archisurance.uml#_nmd7ANf1Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmfwQdf1Eea674x1mBDWlA" points="[417, 165, -643984, -643984]$[529, 165, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmfwQtf1Eea674x1mBDWlA" id="(1.0,0.5194805194805194)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmfwQ9f1Eea674x1mBDWlA" id="(0.0,0.5194805194805194)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmfwQdf1Eea674x1mBDWlA" points="[448, 156, -643984, -643984]$[528, 156, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmfwQtf1Eea674x1mBDWlA" id="(1.0,0.3448275862068966)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmfwQ9f1Eea674x1mBDWlA" id="(0.0,0.35714285714285715)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nmgXQNf1Eea674x1mBDWlA" type="Association_Edge" source="_nmfJINf1Eea674x1mBDWlA" target="_nmfwZtf1Eea674x1mBDWlA" routing="Rectilinear">
+    <edges xmi:type="notation:Connector" xmi:id="_nmgXQNf1Eea674x1mBDWlA" type="Association_Edge" source="_ue-xoBYUEeeY99YLVUDL7w" target="__NWzcBYUEeeY99YLVUDL7w" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_nmgXQdf1Eea674x1mBDWlA" type="Association_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nmgXQtf1Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_nmgXQ9f1Eea674x1mBDWlA" y="-20"/>
@@ -6917,19 +6917,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_nmgXU9f1Eea674x1mBDWlA"/>
       <element xmi:type="uml:Association" href="archimate.model.example.archisurance.uml#_nmbewNf1Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmgXV9f1Eea674x1mBDWlA" points="[417, 165, -643984, -643984]$[488, 165, -643984, -643984]$[488, 72, -643984, -643984]$[664, 72, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmgXWNf1Eea674x1mBDWlA" id="(1.0,0.5194805194805194)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmgXWdf1Eea674x1mBDWlA" id="(0.0,0.5584415584415584)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nmyEFNf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmfJINf1Eea674x1mBDWlA" target="_nmyEENf1Eea674x1mBDWlA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_nmyEFdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmyrINf1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmdT8Nf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmyEFtf1Eea674x1mBDWlA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmyEF9f1Eea674x1mBDWlA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmyEGNf1Eea674x1mBDWlA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmgXV9f1Eea674x1mBDWlA" points="[448, 156, -643984, -643984]$[488, 156, -643984, -643984]$[488, 80, -643984, -643984]$[662, 80, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmgXWNf1Eea674x1mBDWlA" id="(1.0,0.3448275862068966)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmgXWdf1Eea674x1mBDWlA" id="(0.0,0.5277777777777778)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_nm1HZNf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmfwMNf1Eea674x1mBDWlA" target="_nm1HYNf1Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_nm1HZdf1Eea674x1mBDWlA"/>
@@ -6951,16 +6941,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nm2Vg9f1Eea674x1mBDWlA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nm2VhNf1Eea674x1mBDWlA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nnLssdf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmfJQtf1Eea674x1mBDWlA" target="_nnLFoNf1Eea674x1mBDWlA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_nnLsstf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nnLsttf1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0df1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nnLss9f1Eea674x1mBDWlA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnLstNf1Eea674x1mBDWlA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnLstdf1Eea674x1mBDWlA"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_nnNh5Nf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmeiENf1Eea674x1mBDWlA" target="_nnNh4Nf1Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_nnNh5df1Eea674x1mBDWlA"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nnOI8tf1Eea674x1mBDWlA" name="BASE_ELEMENT">
@@ -6970,26 +6950,6 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nnNh5tf1Eea674x1mBDWlA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnOI8Nf1Eea674x1mBDWlA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnOI8df1Eea674x1mBDWlA"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_nnpmwNf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmfwRNf1Eea674x1mBDWlA" target="_nno_sNf1Eea674x1mBDWlA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_nnpmwdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nnpmxdf1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nmcF0Nf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nnpmwtf1Eea674x1mBDWlA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnpmw9f1Eea674x1mBDWlA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nnpmxNf1Eea674x1mBDWlA"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_noCBRNf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_nmfwZtf1Eea674x1mBDWlA" target="_noCBQNf1Eea674x1mBDWlA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_noCBRdf1Eea674x1mBDWlA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_noCBSdf1Eea674x1mBDWlA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_nma3sNf1Eea674x1mBDWlA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_noCBRtf1Eea674x1mBDWlA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_noCBR9f1Eea674x1mBDWlA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_noCBSNf1Eea674x1mBDWlA"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_qfJYVNf1Eea674x1mBDWlA" type="StereotypeCommentLink" source="_qe3rgNf1Eea674x1mBDWlA" target="_qfJYUNf1Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_qfJYVdf1Eea674x1mBDWlA"/>
@@ -7041,7 +7001,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FrCh6tf2Eea674x1mBDWlA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FrCh69f2Eea674x1mBDWlA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_JgrWsNf2Eea674x1mBDWlA" type="Realization_Edge" source="_Fq8bQNf2Eea674x1mBDWlA" target="_nmfJQtf1Eea674x1mBDWlA">
+    <edges xmi:type="notation:Connector" xmi:id="_JgrWsNf2Eea674x1mBDWlA" type="Realization_Edge" source="_Fq8bQNf2Eea674x1mBDWlA" target="_oAS28BYUEeeY99YLVUDL7w">
       <children xmi:type="notation:DecorationNode" xmi:id="_JgrWs9f2Eea674x1mBDWlA" type="Realization_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_J2AGcNf2Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_JgrWtNf2Eea674x1mBDWlA" y="39"/>
@@ -7052,9 +7012,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_JgrWsdf2Eea674x1mBDWlA"/>
       <element xmi:type="uml:Realization" href="archimate.model.example.archisurance.uml#_JgmeMNf2Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JgrWstf2Eea674x1mBDWlA" points="[115, 322, -643984, -643984]$[147, 237, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JgrWstf2Eea674x1mBDWlA" points="[99, 322, -643984, -643984]$[99, 216, -643984, -643984]$[124, 216, -643984, -643984]$[124, 111, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JiNnwNf2Eea674x1mBDWlA" id="(0.52,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JiNnwdf2Eea674x1mBDWlA" id="(0.54,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JiNnwdf2Eea674x1mBDWlA" id="(0.3945578231292517,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_JhjgdNf2Eea674x1mBDWlA" type="StereotypeCommentLink" source="_JgrWsNf2Eea674x1mBDWlA" target="_JhjgcNf2Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_Jhjgddf2Eea674x1mBDWlA"/>
@@ -7114,7 +7074,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PvPKutf2Eea674x1mBDWlA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PvPKu9f2Eea674x1mBDWlA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_SA_K4Nf2Eea674x1mBDWlA" type="Realization_Edge" source="_qe3rgNf1Eea674x1mBDWlA" target="_nmfwRNf1Eea674x1mBDWlA">
+    <edges xmi:type="notation:Connector" xmi:id="_SA_K4Nf2Eea674x1mBDWlA" type="Realization_Edge" source="_qe3rgNf1Eea674x1mBDWlA" target="_4ltKABYUEeeY99YLVUDL7w">
       <children xmi:type="notation:DecorationNode" xmi:id="_SA_K49f2Eea674x1mBDWlA" type="Realization_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SVNHYNf2Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_SA_K5Nf2Eea674x1mBDWlA" y="39"/>
@@ -7125,9 +7085,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_SA_K4df2Eea674x1mBDWlA"/>
       <element xmi:type="uml:Realization" href="archimate.model.example.archisurance.uml#_SA8HkNf2Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SA_K4tf2Eea674x1mBDWlA" points="[586, 274, -643984, -643984]$[576, 236, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SA_K4tf2Eea674x1mBDWlA" points="[581, 254, -643984, -643984]$[581, 233, -643984, -643984]$[580, 233, -643984, -643984]$[580, 201, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SCJogNf2Eea674x1mBDWlA" id="(0.51,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SCJogdf2Eea674x1mBDWlA" id="(0.52,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SCJogdf2Eea674x1mBDWlA" id="(0.46017699115044247,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_SBcd5Nf2Eea674x1mBDWlA" type="StereotypeCommentLink" source="_SA_K4Nf2Eea674x1mBDWlA" target="_SBcd4Nf2Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_SBcd5df2Eea674x1mBDWlA"/>
@@ -7164,7 +7124,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VferANf2Eea674x1mBDWlA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VferAdf2Eea674x1mBDWlA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_bfeekNf2Eea674x1mBDWlA" type="Realization_Edge" source="_ry--wNf1Eea674x1mBDWlA" target="_nmfwZtf1Eea674x1mBDWlA">
+    <edges xmi:type="notation:Connector" xmi:id="_bfeekNf2Eea674x1mBDWlA" type="Realization_Edge" source="_ry--wNf1Eea674x1mBDWlA" target="__NWzcBYUEeeY99YLVUDL7w">
       <children xmi:type="notation:DecorationNode" xmi:id="_bffFoNf2Eea674x1mBDWlA" type="Realization_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ckPuQNf2Eea674x1mBDWlA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_bffFodf2Eea674x1mBDWlA" x="-1" y="39"/>
@@ -7175,9 +7135,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_bfeekdf2Eea674x1mBDWlA"/>
       <element xmi:type="uml:Realization" href="archimate.model.example.archisurance.uml#_bfaNINf2Eea674x1mBDWlA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bfeektf2Eea674x1mBDWlA" points="[714, 332, -643984, -643984]$[694, 129, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bfeektf2Eea674x1mBDWlA" points="[714, 335, -643984, -643984]$[714, 245, -643984, -643984]$[881, 245, -643984, -643984]$[881, 156, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bgi1kNf2Eea674x1mBDWlA" id="(0.45,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bgi1kdf2Eea674x1mBDWlA" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bgi1kdf2Eea674x1mBDWlA" id="(0.46846846846846846,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_bf8_sdf2Eea674x1mBDWlA" type="StereotypeCommentLink" source="_bfeekNf2Eea674x1mBDWlA" target="_bf8Yo9f2Eea674x1mBDWlA">
       <styles xmi:type="notation:FontStyle" xmi:id="_bf8_stf2Eea674x1mBDWlA"/>
@@ -7198,6 +7158,46 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rP-bNt4-Eeau951k4I2Xmw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rP-bN94-Eeau951k4I2Xmw"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rP-bON4-Eeau951k4I2Xmw"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_oAqDUBYUEeeY99YLVUDL7w" type="StereotypeCommentLink" source="_oAS28BYUEeeY99YLVUDL7w" target="_oAo1MBYUEeeY99YLVUDL7w">
+      <styles xmi:type="notation:FontStyle" xmi:id="_oAqDURYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oAqqYRYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_AVqK4NfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oAqDUhYUEeeY99YLVUDL7w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAqDUxYUEeeY99YLVUDL7w"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAqqYBYUEeeY99YLVUDL7w"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ufKX0BYUEeeY99YLVUDL7w" type="StereotypeCommentLink" source="_ue-xoBYUEeeY99YLVUDL7w" target="_ufJwwxYUEeeY99YLVUDL7w">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ufKX0RYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ufKX1RYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_Cp43UNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ufKX0hYUEeeY99YLVUDL7w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ufKX0xYUEeeY99YLVUDL7w"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ufKX1BYUEeeY99YLVUDL7w"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_4l2T9BYUEeeY99YLVUDL7w" type="StereotypeCommentLink" source="_4ltKABYUEeeY99YLVUDL7w" target="_4l2T8BYUEeeY99YLVUDL7w">
+      <styles xmi:type="notation:FontStyle" xmi:id="_4l2T9RYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_4l2T-RYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_uQA-sNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4l2T9hYUEeeY99YLVUDL7w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4l2T9xYUEeeY99YLVUDL7w"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4l2T-BYUEeeY99YLVUDL7w"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__NfWVBYUEeeY99YLVUDL7w" type="StereotypeCommentLink" source="__NWzcBYUEeeY99YLVUDL7w" target="__NfWUBYUEeeY99YLVUDL7w">
+      <styles xmi:type="notation:FontStyle" xmi:id="__NfWVRYUEeeY99YLVUDL7w"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="__NfWWRYUEeeY99YLVUDL7w" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="archimate.model.example.archisurance.uml#_retUsNfxEeaVvvvmUXbVKQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__NfWVhYUEeeY99YLVUDL7w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__NfWVxYUEeeY99YLVUDL7w"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__NfWWBYUEeeY99YLVUDL7w"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_nAzMsNf2Eea674x1mBDWlA" type="PapyrusUMLClassDiagram" name="Infrastructure Landscape" measurementUnit="Pixel">
@@ -8126,8 +8126,9 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qsbplNf5Eeay9K0f8CwyqA"/>
     </edges>
   </notation:Diagram>
-  <css:ModelStyleSheets xmi:id="_sWFVQN1aEearCZaHgBunEw"/>
-  <css:StyleSheetReference xmi:id="_mJ7KgNyVEeanEpOY9ccvDQ" path="/com.adocus.papyrus.archimate/resources/squared-test.css"/>
+  <css:ModelStyleSheets xmi:id="_sWFVQN1aEearCZaHgBunEw">
+    <stylesheets xmi:type="css:StyleSheetReference" xmi:id="_mJ7KgNyVEeanEpOY9ccvDQ" path="/com.adocus.papyrus.archimate/resources/squared-test.css"/>
+  </css:ModelStyleSheets>
   <notation:Diagram xmi:id="_OnxQYN5ZEeaMxY5qywk8Zw" type="PapyrusUMLClassDiagram" name="Implementation and migration diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_Tg0C8N5ZEeaMxY5qywk8Zw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_Tg0C8t5ZEeaMxY5qywk8Zw" type="Class_NameLabel"/>
